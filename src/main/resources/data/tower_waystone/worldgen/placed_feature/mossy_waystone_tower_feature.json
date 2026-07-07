@@ -1,5 +1,5 @@
 {
-  "feature": "waystone_towers:snowy_waystone_tower_feature",
+  "feature": "tower_waystone:mossy_waystone_tower_feature",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -17,9 +17,8 @@
       "predicate": {
         "type": "minecraft:matching_blocks",
         "blocks": [
-          "minecraft:snow",
           "minecraft:grass_block",
-          "minecraft:snow_block"
+          "minecraft:podzol"
         ],
         "offset": [
           0,

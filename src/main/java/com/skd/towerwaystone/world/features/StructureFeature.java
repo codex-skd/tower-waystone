@@ -19,7 +19,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class StructureFeature extends Feature<StructureFeatureConfiguration> {
 
-    public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(Registries.FEATURE, "waystone_towers");
+    public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(Registries.FEATURE, "tower_waystone");
     public static final DeferredHolder<Feature<?>, StructureFeature> STRUCTURE_FEATURE = REGISTRY.register("structure_feature",
             () -> new StructureFeature(StructureFeatureConfiguration.CODEC));
 

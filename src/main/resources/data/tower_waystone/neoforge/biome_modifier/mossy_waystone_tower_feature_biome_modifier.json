@@ -8,6 +8,6 @@
     "old_growth_spruce_taiga",
     "taiga"
   ],
-  "features": "waystone_towers:mossy_waystone_tower_feature",
+  "features": "tower_waystone:mossy_waystone_tower_feature",
   "step": "surface_structures"
 }

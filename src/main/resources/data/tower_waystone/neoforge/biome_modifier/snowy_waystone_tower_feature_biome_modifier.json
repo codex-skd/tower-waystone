@@ -7,6 +7,6 @@
     "snowy_taiga",
     "ice_spikes"
   ],
-  "features": "waystone_towers:snowy_waystone_tower_feature",
+  "features": "tower_waystone:snowy_waystone_tower_feature",
   "step": "surface_structures"
 }

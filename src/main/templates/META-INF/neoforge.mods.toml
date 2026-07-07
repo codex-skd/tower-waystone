@@ -6,9 +6,8 @@ version="${mod_version}"
 displayName="${mod_name}"
 displayURL="https://youtube.com/Ner07"
 logoFile="logo.png"
-credits="Created with MCreator - Ported to NeoForge 26.1.x"
-authors="Ner07CA"
-description='''Adds towers into the game which have waystones if you have the waystone mod installed.'''
+credits="Original concept by Ner07CA | Ported by Stalking Dragons"
+description='''Generates stone towers with waystones across your world — pair with the Waystones mod for fast travel between them.'''
 
 [[dependencies.${mod_id}]]
     modId="neoforge"

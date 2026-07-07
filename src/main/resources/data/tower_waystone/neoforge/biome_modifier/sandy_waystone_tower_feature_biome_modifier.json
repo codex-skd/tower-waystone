@@ -4,6 +4,6 @@
     "desert",
     "plains"
   ],
-  "features": "waystone_towers:sandy_waystone_tower_feature",
+  "features": "tower_waystone:sandy_waystone_tower_feature",
   "step": "surface_structures"
 }

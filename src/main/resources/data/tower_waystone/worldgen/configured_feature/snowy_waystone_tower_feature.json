@@ -1,7 +1,7 @@
 {
-  "type": "waystone_towers:structure_feature",
+  "type": "tower_waystone:structure_feature",
   "config": {
-    "structure": "waystone_towers:snowy_waystone_tower",
+    "structure": "tower_waystone:snowy_waystone_tower",
     "random_rotation": true,
     "random_mirror": true,
     "ignored_blocks": "minecraft:structure_block",

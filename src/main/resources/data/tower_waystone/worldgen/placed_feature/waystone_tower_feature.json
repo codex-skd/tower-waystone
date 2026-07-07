@@ -1,5 +1,5 @@
 {
-  "feature": "waystone_towers:waystone_tower_feature",
+  "feature": "tower_waystone:waystone_tower_feature",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

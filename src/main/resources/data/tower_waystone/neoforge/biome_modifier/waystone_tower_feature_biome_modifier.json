@@ -13,6 +13,6 @@
     "savanna_plateau",
     "windswept_savanna"
   ],
-  "features": "waystone_towers:waystone_tower_feature",
+  "features": "tower_waystone:waystone_tower_feature",
   "step": "surface_structures"
 }

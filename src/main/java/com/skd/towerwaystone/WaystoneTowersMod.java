@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 
 @Mod(WaystoneTowersMod.MODID)
 public class WaystoneTowersMod {
-    public static final String MODID = "waystone_towers";
+    public static final String MODID = "tower_waystone";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public WaystoneTowersMod(IEventBus modEventBus) {
