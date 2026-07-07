@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_slopes",
+    "plains",
+    "snowy_plains",
+    "snowy_taiga",
+    "ice_spikes"
+  ],
+  "features": "waystone_towers:snowy_waystone_tower_feature",
+  "step": "surface_structures"
+}
