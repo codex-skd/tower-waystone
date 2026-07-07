@@ -22,3 +22,10 @@ description='''Generates stone towers with waystones across your world — pair 
     versionRange="${minecraft_version_range}"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="waystones"
+    type="required"
+    versionRange="[26.1,)"
+    ordering="AFTER"
+    side="BOTH"
