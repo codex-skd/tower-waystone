@@ -16,7 +16,8 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 
 public class WaystoneNameProcessor extends StructureProcessor {
 
-    public static final MapCodec<WaystoneNameProcessor> CODEC = MapCodec.unit(WaystoneNameProcessor::new);
+    public static final WaystoneNameProcessor INSTANCE = new WaystoneNameProcessor();
+    public static final MapCodec<WaystoneNameProcessor> CODEC = MapCodec.unit(() -> INSTANCE);
 
     private static final String[] NAMES = {
             "Whispering Peak", "Stormwatch", "Elder Spire", "Dawn's Rest",
