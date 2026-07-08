@@ -26,7 +26,25 @@ public class WaystoneNameProcessor extends StructureProcessor {
     };
 
     @Override
+    public StructureTemplate.StructureBlockInfo process(
+            LevelReader level, BlockPos offset, BlockPos pos,
+            StructureTemplate.StructureBlockInfo blockInfo,
+            StructureTemplate.StructureBlockInfo relativeBlockInfo,
+            StructurePlaceSettings settings,
+            StructureTemplate template) {
+        return doProcess(level, offset, pos, blockInfo, relativeBlockInfo, settings);
+    }
+
+    @Override
     public StructureTemplate.StructureBlockInfo processBlock(
+            LevelReader level, BlockPos offset, BlockPos pos,
+            StructureTemplate.StructureBlockInfo blockInfo,
+            StructureTemplate.StructureBlockInfo relativeBlockInfo,
+            StructurePlaceSettings settings) {
+        return doProcess(level, offset, pos, blockInfo, relativeBlockInfo, settings);
+    }
+
+    private StructureTemplate.StructureBlockInfo doProcess(
             LevelReader level, BlockPos offset, BlockPos pos,
             StructureTemplate.StructureBlockInfo blockInfo,
             StructureTemplate.StructureBlockInfo relativeBlockInfo,
@@ -37,11 +55,10 @@ public class WaystoneNameProcessor extends StructureProcessor {
 
         if ("waystones".equals(blockId.getNamespace()) && blockId.getPath().contains("waystone")) {
             CompoundTag nbt = blockInfo.nbt();
-            if (nbt != null) {
-                nbt = nbt.copy();
-            } else {
+            if (nbt == null) {
                 return blockInfo;
             }
+            nbt = nbt.copy();
             if (!nbt.contains("WaystoneName")) {
                 String name = NAMES[RandomSource.create().nextInt(NAMES.length)];
                 JsonObject json = new JsonObject();
