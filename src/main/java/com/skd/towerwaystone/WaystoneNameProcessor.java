@@ -36,7 +36,13 @@ public class WaystoneNameProcessor extends StructureProcessor {
         Identifier blockId = BuiltInRegistries.BLOCK.getKey(block);
 
         if ("waystones".equals(blockId.getNamespace()) && blockId.getPath().contains("waystone")) {
-            CompoundTag nbt = blockInfo.nbt() != null ? blockInfo.nbt().copy() : new CompoundTag();
+            CompoundTag nbt = blockInfo.nbt();
+            if (nbt == null) {
+                nbt = new CompoundTag();
+                nbt.putString("id", "waystones:waystone");
+            } else {
+                nbt = nbt.copy();
+            }
             if (!nbt.contains("WaystoneName")) {
                 String name = NAMES[RandomSource.create().nextInt(NAMES.length)];
                 JsonObject json = new JsonObject();
