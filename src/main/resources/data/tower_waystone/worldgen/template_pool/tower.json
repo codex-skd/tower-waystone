@@ -7,11 +7,13 @@
         "element_type": "minecraft:single_pool_element",
         "location": "tower_waystone:waystone_tower",
         "projection": "rigid",
-        "processors": [
-          {
-            "processor_type": "tower_waystone:waystone_name"
-          }
-        ]
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "tower_waystone:waystone_name"
+            }
+          ]
+        }
       }
     }
   ]
