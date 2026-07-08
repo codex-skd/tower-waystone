@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "tower_waystone:snowy_waystone_tower",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "tower_waystone:waystone_name"
       }
     }
   ]
