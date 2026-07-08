@@ -6,14 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tower_waystone:sandy_waystone_tower",
-        "projection": "rigid",
-        "processors": {
-          "processors": [
-            {
-              "processor_type": "tower_waystone:waystone_name"
-            }
-          ]
-        }
+        "projection": "rigid"
       }
     }
   ]
