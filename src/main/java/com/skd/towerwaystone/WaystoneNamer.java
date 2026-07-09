@@ -35,29 +35,37 @@ public class WaystoneNamer {
                 Identifier id = BuiltInRegistries.BLOCK.getKey(block);
                 if ("waystones".equals(id.getNamespace()) && id.getPath().contains("waystone")) {
                     BlockPos pos = be.getBlockPos().immutable();
-                    if (NAMED.contains(pos)) {
-                        continue;
-                    }
+                    WaystoneTowersMod.LOGGER.info("Detected nameless waystone at {} in chunk ({}), scheduling name...",
+                            pos, chunk.getPos());
 
-                    String name = NAMES[RANDOM.nextInt(NAMES.length)];
-                    JsonObject json = new JsonObject();
-                    json.addProperty("text", name);
-
-                    try {
-                        CompoundTag tag = be.saveWithFullMetadata(serverLevel.registryAccess());
-                        if (!tag.contains("WaystoneName")) {
-                            tag.putString("WaystoneName", json.toString());
-                            BlockEntity newBe = BlockEntity.loadStatic(pos, be.getBlockState(), tag, serverLevel.registryAccess());
-                            if (newBe != null) {
-                                chunk.setBlockEntity(newBe);
-                                newBe.setChanged();
-                                NAMED.add(pos);
-                                WaystoneTowersMod.LOGGER.debug("Named waystone at {} as '{}'", pos, name);
-                            }
+                    serverLevel.getServer().execute(() -> {
+                        if (NAMED.contains(pos.immutable())) return;
+                        LevelChunk currentChunk = serverLevel.getChunk(pos.getX() >> 4, pos.getZ() >> 4);
+                        if (currentChunk == null) return;
+                        BlockEntity currentBe = currentChunk.getBlockEntity(pos);
+                        if (currentBe == null) {
+                            WaystoneTowersMod.LOGGER.warn("Waystone BE vanished at {}", pos);
+                            return;
                         }
-                    } catch (Exception e) {
-                        WaystoneTowersMod.LOGGER.error("Failed to name waystone at {}: {}", pos, e.getMessage());
-                    }
+
+                        String name = NAMES[RANDOM.nextInt(NAMES.length)];
+                        JsonObject json = new JsonObject();
+                        json.addProperty("text", name);
+
+                        try {
+                            CompoundTag tag = currentBe.saveWithFullMetadata(serverLevel.registryAccess());
+                            tag.putString("WaystoneName", json.toString());
+                            BlockEntity newBe = BlockEntity.loadStatic(pos, currentBe.getBlockState(), tag, serverLevel.registryAccess());
+                            if (newBe != null) {
+                                currentChunk.setBlockEntity(newBe);
+                                newBe.setChanged();
+                                NAMED.add(pos.immutable());
+                                WaystoneTowersMod.LOGGER.info("Named waystone at {} as '{}'", pos, name);
+                            }
+                        } catch (Exception e) {
+                            WaystoneTowersMod.LOGGER.error("Failed to name waystone at {}: {}", pos, e.getMessage());
+                        }
+                    });
                 }
             }
         }
