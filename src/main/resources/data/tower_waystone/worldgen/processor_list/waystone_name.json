@@ -1,7 +1,0 @@
-{
-  "processors": [
-    {
-      "processor_type": "tower_waystone:waystone_name"
-    }
-  ]
-}
