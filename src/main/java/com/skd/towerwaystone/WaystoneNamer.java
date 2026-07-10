@@ -1,6 +1,5 @@
 package com.skd.towerwaystone;
 
-import com.google.gson.JsonObject;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
@@ -49,18 +48,32 @@ public class WaystoneNamer {
                         }
 
                         String name = NAMES[RANDOM.nextInt(NAMES.length)];
-                        JsonObject json = new JsonObject();
-                        json.addProperty("text", name);
 
                         try {
                             CompoundTag tag = currentBe.saveWithFullMetadata(serverLevel.registryAccess());
-                            tag.putString("WaystoneName", json.toString());
+                            // Log all tag keys to see what the waystone has
+                            WaystoneTowersMod.LOGGER.info("Waystone tag keys: size={}", tag.keySet().size());
+
+                            // Try setting waystone_name as a CompoundTag (Component format)
+                            CompoundTag nameTag = new CompoundTag();
+                            nameTag.putString("text", name);
+                            tag.put("waystone_name", nameTag);
+
+                            // Also try CustomName as fallback (vanilla component)
+                            CompoundTag customName = new CompoundTag();
+                            customName.putString("text", name);
+                            tag.put("CustomName", customName);
+
                             BlockEntity newBe = BlockEntity.loadStatic(pos, currentBe.getBlockState(), tag, serverLevel.registryAccess());
                             if (newBe != null) {
                                 currentChunk.setBlockEntity(newBe);
                                 newBe.setChanged();
                                 NAMED.add(pos.immutable());
-                                WaystoneTowersMod.LOGGER.info("Named waystone at {} as '{}'", pos, name);
+                                WaystoneTowersMod.LOGGER.info("Applied name '{}' at {}", name, pos);
+
+                                // Log tag keys after
+                                CompoundTag afterTag = newBe.saveWithFullMetadata(serverLevel.registryAccess());
+                                WaystoneTowersMod.LOGGER.info("Waystone tag keys after: size={}", afterTag.keySet().size());
                             }
                         } catch (Exception e) {
                             WaystoneTowersMod.LOGGER.error("Failed to name waystone at {}: {}", pos, e.getMessage());
