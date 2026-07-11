@@ -1,16 +1,20 @@
 # Changelog
 
-## 1.0.11 — 2026-07-09
-### Removed
-- StructureProcessor approach (`WaystoneNameProcessor`) — was blocking structure generation entirely
-- `processor_list/waystone_name.json` — no longer needed
+## 1.0.17 — 2026-07-10
+### Fixed
+- Waystone naming no longer overwrites existing waystone names — skips waystones that already have a name or were placed by a player
 
+## 1.0.16 — 2026-07-10
 ### Changed
-- Template pools now use `"minecraft:empty"` processor instead of custom processor
-- Waystone naming is now handled via `ChunkEvent.Load` event in `WaystoneNamer`
+- Refined biome tags per tower variant so each generates only in thematically appropriate biomes (sandy → desert/badlands, mossy → jungle/swamp/taiga, snowy → frozen, normal → temperate)
 
-### Added
-- `WaystoneNamer` — event-driven waystone naming on chunk load, assigns random fantasy names
+## 1.0.15 — 2026-07-10
+### Changed
+- Waystone naming rewritten to use Waystones API directly (`WaystonesAPI.getWaystoneAt` + `MutableWaystone.setName`) instead of NBT reflection — fixes naming in 1.21.4 Data Component system
+- Added `waystones-neoforge-26.1.2-26.1.2.8.jar` as compile dependency from `libs/`
+
+### Removed
+- NBT injection approach (incompatible with 1.21.4 Data Components)
 
 ## 1.0.10 — 2026-07-08
 ### Fixed

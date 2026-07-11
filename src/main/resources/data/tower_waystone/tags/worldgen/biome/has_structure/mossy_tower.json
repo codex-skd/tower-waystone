@@ -2,10 +2,12 @@
   "replace": false,
   "values": [
     "minecraft:bamboo_jungle",
-    "minecraft:plains",
+    "minecraft:jungle",
     "minecraft:sparse_jungle",
     "minecraft:old_growth_pine_taiga",
     "minecraft:old_growth_spruce_taiga",
-    "minecraft:taiga"
+    "minecraft:taiga",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp"
   ]
 }

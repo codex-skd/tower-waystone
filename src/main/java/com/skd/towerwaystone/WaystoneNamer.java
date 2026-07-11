@@ -1,8 +1,12 @@
 package com.skd.towerwaystone;
 
+import net.blay09.mods.waystones.api.MutableWaystone;
+import net.blay09.mods.waystones.api.Waystone;
+import net.blay09.mods.waystones.api.WaystoneOrigin;
+import net.blay09.mods.waystones.api.WaystonesAPI;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.block.Block;
@@ -11,6 +15,7 @@ import net.minecraft.world.level.chunk.LevelChunk;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.level.ChunkEvent;
 
+import java.util.Optional;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,6 +29,7 @@ public class WaystoneNamer {
     };
     private static final Random RANDOM = new Random();
     private static final Set<BlockPos> NAMED = ConcurrentHashMap.newKeySet();
+    private static final int MAX_RETRIES = 10;
 
     @SubscribeEvent
     public void onChunkLoad(ChunkEvent.Load event) {
@@ -34,53 +40,36 @@ public class WaystoneNamer {
                 Identifier id = BuiltInRegistries.BLOCK.getKey(block);
                 if ("waystones".equals(id.getNamespace()) && id.getPath().contains("waystone")) {
                     BlockPos pos = be.getBlockPos().immutable();
-                    WaystoneTowersMod.LOGGER.info("Detected nameless waystone at {} in chunk ({}), scheduling name...",
-                            pos, chunk.getPos());
-
-                    serverLevel.getServer().execute(() -> {
-                        if (NAMED.contains(pos.immutable())) return;
-                        LevelChunk currentChunk = serverLevel.getChunk(pos.getX() >> 4, pos.getZ() >> 4);
-                        if (currentChunk == null) return;
-                        BlockEntity currentBe = currentChunk.getBlockEntity(pos);
-                        if (currentBe == null) {
-                            WaystoneTowersMod.LOGGER.warn("Waystone BE vanished at {}", pos);
-                            return;
-                        }
-
-                        String name = NAMES[RANDOM.nextInt(NAMES.length)];
-
-                        try {
-                            CompoundTag tag = currentBe.saveWithFullMetadata(serverLevel.registryAccess());
-                            // Log all tag keys to see what the waystone has
-                            WaystoneTowersMod.LOGGER.info("Waystone tag keys: size={}", tag.keySet().size());
-
-                            // Try setting waystone_name as a CompoundTag (Component format)
-                            CompoundTag nameTag = new CompoundTag();
-                            nameTag.putString("text", name);
-                            tag.put("waystone_name", nameTag);
-
-                            // Also try CustomName as fallback (vanilla component)
-                            CompoundTag customName = new CompoundTag();
-                            customName.putString("text", name);
-                            tag.put("CustomName", customName);
-
-                            BlockEntity newBe = BlockEntity.loadStatic(pos, currentBe.getBlockState(), tag, serverLevel.registryAccess());
-                            if (newBe != null) {
-                                currentChunk.setBlockEntity(newBe);
-                                newBe.setChanged();
-                                NAMED.add(pos.immutable());
-                                WaystoneTowersMod.LOGGER.info("Applied name '{}' at {}", name, pos);
-
-                                // Log tag keys after
-                                CompoundTag afterTag = newBe.saveWithFullMetadata(serverLevel.registryAccess());
-                                WaystoneTowersMod.LOGGER.info("Waystone tag keys after: size={}", afterTag.keySet().size());
-                            }
-                        } catch (Exception e) {
-                            WaystoneTowersMod.LOGGER.error("Failed to name waystone at {}: {}", pos, e.getMessage());
-                        }
-                    });
+                    serverLevel.getServer().execute(() -> nameWaystone(serverLevel, pos, 0));
                 }
             }
         }
+    }
+
+    private void nameWaystone(ServerLevel level, BlockPos pos, int retries) {
+        if (NAMED.contains(pos)) return;
+        Optional<Waystone> opt = WaystonesAPI.getWaystoneAt(level, pos);
+        if (opt.isEmpty() || !(opt.get() instanceof MutableWaystone mutable)) {
+            if (retries < MAX_RETRIES) {
+                level.getServer().execute(() -> nameWaystone(level, pos, retries + 1));
+            } else {
+                WaystoneTowersMod.LOGGER.warn("Gave up naming waystone at {} after {} retries", pos, MAX_RETRIES);
+                NAMED.add(pos);
+            }
+            return;
+        }
+        Waystone waystone = opt.get();
+        if (waystone.hasName()) {
+            NAMED.add(pos);
+            return;
+        }
+        if (waystone.getOrigin() == WaystoneOrigin.PLAYER) {
+            NAMED.add(pos);
+            return;
+        }
+        String name = NAMES[RANDOM.nextInt(NAMES.length)];
+        mutable.setName(Component.literal(name));
+        NAMED.add(pos);
+        WaystoneTowersMod.LOGGER.info("Named waystone at {} to '{}'", pos, name);
     }
 }
