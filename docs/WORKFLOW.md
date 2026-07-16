@@ -1,6 +1,6 @@
-# Flujo de trabajo — Tower Waystone (NeoForge)
+# Flujo de trabajo — Armor Cosmetic (NeoForge)
 
-> Este archivo pertenece al proyecto **Tower Waystone**. Cada proyecto tiene su propio `WORKFLOW.md`.
+> Este archivo pertenece al proyecto **Armor Cosmetic**. Cada proyecto tiene su propio `WORKFLOW.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 
 ## Estructura del proyecto
@@ -186,7 +186,7 @@ El JAR generado sigue el formato `<mod_id>-<minecraft_version>-<framework>-<mod_
 
 | Ejemplo | Significado |
 |---------|-------------|
-| `tower_waystone-26.1.2-neoforge-1.0.18.jar` | NeoForge 26.1.2, release 1.0.18 |
+| `player_animation_core-26.1.2-neoforge-0.0.0-beta.21.jar` | NeoForge 26.1.2, beta 21 |
 
 El framework puede ser `neoforge`, `forge` o `fabric` según corresponda. Se configura en `build.gradle`:
 
