@@ -12,8 +12,8 @@
 
 | API | Token | Uso |
 |-----|-------|-----|
-| Upload | `<pendiente>` | Subir archivos JAR |
-| Core (GET) | `<pendiente>` | Consultar datos del mod |
+| Upload | `ee776b0a-ee95-4850-b554-06be02a8657f` | Subir archivos JAR |
+| Core (GET) | `$2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO` | Consultar datos del mod |
 
 Autenticación Upload: cabecera `X-Api-Token`
 Autenticación Core: cabecera `x-api-key`
@@ -108,7 +108,7 @@ req = urllib.request.Request(
     f"https://minecraft.curseforge.com/api/projects/1601435/upload-file",
     data=body,
     headers={
-        "X-Api-Token": "<TOKEN>",
+        "X-Api-Token": "ee776b0a-ee95-4850-b554-06be02a8657f",
         "Content-Type": f"multipart/form-data; boundary={boundary}"
     },
     method="POST"
@@ -122,14 +122,14 @@ print(resp.read().decode())
 
 ```bash
 curl -s "https://api.curseforge.com/v1/mods/1601435/files/<FILE_ID>" \
-  -H "x-api-key: <TOKEN>"
+  -H "x-api-key: $2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO"
 ```
 
 ## Changelog
 
 ```bash
 curl -s "https://api.curseforge.com/v1/mods/1601435/files/<FILE_ID>/changelog" \
-  -H "x-api-key: <TOKEN>"
+  -H "x-api-key: $2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO"
 ```
 
 ## Descripcion del proyecto
