@@ -1,5 +1,14 @@
 # Registro de cambios
 
+## 1.0.18 — 2026-07-11
+### Cambiado
+- Reestructurado el repositorio siguiendo el flujo de trabajo definido en `docs/WORKFLOW.md`:
+  - Rama `minecraft/26.1.2/neoforge-26.1.2.78/production` para desarrollo activo
+  - Formato de JAR: `<mod_id>-<mc_version>-neoforge-<version>.jar`
+  - Formato de tags: `<mc_version>-neoforge-<version>`
+- Actualizado `docs/WORKFLOW.md`: secciones de Ramas, Tags y formato de JAR
+- Actualizado `build.gradle` para el nuevo formato de nombre de JAR
+
 ## 1.0.17 — 2026-07-10
 ### Corregido
 - El nombrado de waystones ya no sobreescribe nombres existentes — ignora waystones que ya tienen nombre o fueron colocadas por un jugador
