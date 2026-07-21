@@ -1,29 +1,29 @@
 
 # Tower Waystone
 
-Torres de piedra con waystones repartidas por el mundo. Activa las waystones y teleportate entre ellas usando el [mod Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones).
+Stone towers with waystones scattered across your world. Activate the waystones and teleport between them using the [Waystones mod](https://www.curseforge.com/minecraft/mc-mods/waystones).
 
-## Variantes
+## Variants
 
-| Variante | Biomas |
-|----------|--------|
-| Normal | Llanuras, bosques, prados, sabanas, colinas ventosas, cerezos |
-| Arenosa | Desiertos, badlands |
-| Musgosa | Junglas, pantanos, manglares, taigas |
-| Nevada | Picos helados, llanuras nevadas, ice spikes, arboledas |
+| Variant | Biomes |
+|---------|--------|
+| Normal | Plains, forests, meadows, savannas, windswept hills, cherry groves |
+| Sandy | Deserts, badlands |
+| Mossy | Jungles, swamps, mangroves, taigas |
+| Snowy | Frozen peaks, snowy plains, ice spikes, groves |
 
-## Requisitos
+## Requirements
 
 - **NeoForge** 26.1.2+
 - **[Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones)** 26.1+
 
-## Compilar
+## Building
 
 ```bash
 ./gradlew clean build
-# Salida: build/libs/tower_waystone-<version>.jar
+# Output: build/libs/tower_waystone-26.1.2-neoforge-<version>.jar
 ```
 
-## Licencia
+## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
