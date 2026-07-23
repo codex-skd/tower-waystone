@@ -40,3 +40,4 @@ repo/
 !**/src/**/repo/
 lib_ext/
 graphify-out/
+temp/
