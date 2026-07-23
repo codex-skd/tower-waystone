@@ -21,17 +21,27 @@ publish-public:
     - MAIN_BRANCH=$(echo "$CI_COMMIT_BRANCH" | sed 's|/production$|/main|')
     - echo "Publishing to $MAIN_BRANCH"
 
-    # Fetch or orphan the main branch
-    - git fetch origin "$MAIN_BRANCH" 2>/dev/null || true
-    - git checkout "$MAIN_BRANCH" || git checkout --orphan "$MAIN_BRANCH"
+    # Fail if main branch doesn't exist — agent must create it manually
+    - |
+      if ! git fetch origin "$MAIN_BRANCH" 2>/dev/null; then
+        echo "ERROR: $MAIN_BRANCH does not exist. Create it from production first."
+        exit 1
+      fi
+    - git checkout "$MAIN_BRANCH"
 
     # Clean and copy public files from production
     - git rm -rf --ignore-unmatch --quiet . 2>/dev/null || true
-    - git checkout "$CI_COMMIT_SHA" -- src/ build.gradle settings.gradle gradle.properties gradlew gradlew.bat .gitignore README.md CHANGELOG.md libs/
 
-    # Sanitize gradle.properties
+    # Required files (must exist in all mods)
+    - git checkout "$CI_COMMIT_SHA" -- src/ build.gradle settings.gradle gradle.properties gradlew gradlew.bat .gitignore README.md CHANGELOG.md
+
+    # Optional files (may not exist in some mods)
+    - git checkout "$CI_COMMIT_SHA" -- libs/ 2>/dev/null || true
+
+    # Sanitize secrets in gradle.properties
     - sed -i 's/^mod_version=.*/mod_version=0.0.0/' gradle.properties
     - sed -i 's/^mod_group_id=.*/mod_group_id=com\.skd\.placeholder/' gradle.properties
+    - sed -i 's/^mod_curseforge_project_id=.*/mod_curseforge_project_id=/' gradle.properties
 
     # Commit and force push to main branch
     - git add -A
