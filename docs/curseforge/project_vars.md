@@ -99,7 +99,7 @@ body += b'Content-Disposition: form-data; name="metadata"\r\n'
 body += b"Content-Type: application/json\r\n\r\n"
 body += meta_bytes + b"\r\n"
 body += f"--{boundary}\r\n".encode()
-body += b'Content-Disposition: form-data; name="file"; filename="tower_waystone-26.1.2-neoforge-{version}.jar"\r\n'
+body += f'Content-Disposition: form-data; name="file"; filename="tower_waystone-26.1.2-neoforge-{version}.jar"\r\n'.encode()
 body += b"Content-Type: application/java-archive\r\n\r\n"
 body += jar_data + b"\r\n"
 body += f"--{boundary}--\r\n".encode()
