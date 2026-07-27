@@ -1,5 +1,10 @@
 # Registro de cambios
 
+## 1.1.2 — 2026-07-28
+### Fixed
+- Corregido `end_purpur_processor.json`: `minecraft:purpur_wall` no existe — reemplazado por `end_stone_brick_wall`
+- El servidor ya no falla al cargar el procesador de la torre de púrpura del End
+
 ## 1.1.1 — 2026-07-27
 ### Fixed
 - Corregido el nombre del JAR en el script de subida a CurseForge — el `{version}` ahora se interpola correctamente como f-string
