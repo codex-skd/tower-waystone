@@ -1,5 +1,12 @@
 # Registro de cambios
 
+## 0.0.0-beta.1 — 2026-07-27
+### Cambiado
+- Portado de Minecraft 26.1.2 a **26.2** (NeoForge 26.2.0.32-beta)
+- Adaptado el esqueleto del proyecto al template `26.2-26.2.0.32-beta`
+- Actualizado `build.gradle`: NeoGradle `2.0.142`, Java 25
+- Actualizada dependencia de Waystones a `26.2-26.2.0.5`
+
 ## 1.0.18 — 2026-07-11
 ### Cambiado
 - Reestructurado el repositorio siguiendo el flujo de trabajo definido en `docs/WORKFLOW.md`:
