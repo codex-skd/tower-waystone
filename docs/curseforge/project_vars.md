@@ -1,4 +1,4 @@
-# CurseForge — Variables del proyecto
+# CurseForge â€” Variables del proyecto
 
 ## Proyecto
 
@@ -15,10 +15,10 @@
 | Upload | `ee776b0a-ee95-4850-b554-06be02a8657f` | Subir archivos JAR |
 | Core (GET) | `$2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO` | Consultar datos del mod |
 
-Autenticación Upload: cabecera `X-Api-Token`
-Autenticación Core: cabecera `x-api-key`
+AutenticaciÃ³n Upload: cabecera `X-Api-Token`
+AutenticaciÃ³n Core: cabecera `x-api-key`
 
-## Versión actual
+## VersiÃ³n actual
 
 | Variable | Valor |
 |----------|-------|
@@ -36,22 +36,22 @@ minecraft/26.2/neoforge-26.2.0.32-beta/production
 ## Tag
 
 Formato: `<mc-version>-<framework>-<version>`
-Ejemplo: `26.2-neoforge-1.0.18`
+Ejemplo: `26.2-neoforge-0.0.0-beta.2`
 
-## Parámetros del upload
+## ParÃ¡metros del upload
 
 | Campo | Valor | Notas |
 |-------|-------|-------|
-| `displayName` | `Tower Waystone (1.0.X)` | Nombre visible: `display_name (version)` |
+| `displayName` | `Tower Waystone (0.0.0-beta.X)` | Nombre visible: `display_name (version)` |
 | `changelog` | HTML (no Markdown) | Ver estructura abajo |
 | `changelogType` | `html` | Obligatorio para que se vea bien |
-| `releaseType` | `release` o `beta` | Según el tipo de versión |
+| `releaseType` | `release` o `beta` | SegÃºn el tipo de versiÃ³n |
 | `gameVersionNames` | `["Client", "Server", "26.2", "NeoForge"]` | Entorno + MC + modloader |
 
 ## Estructura del changelog (HTML)
 
 ```html
-<h2>v1.0.X - Titulo descriptivo</h2>
+<h2>v0.0.0-beta.X - Titulo descriptivo</h2>
 
 <h3>Fix</h3>
 <ul>
@@ -61,7 +61,7 @@ Ejemplo: `26.2-neoforge-1.0.18`
 
 <h3>Changed</h3>
 <ul>
-<li><code>Clase/metodo()</code> — descripcion.</li>
+<li><code>Clase/metodo()</code> â€” descripcion.</li>
 </ul>
 
 <h3>Notes</h3>
@@ -69,7 +69,7 @@ Ejemplo: `26.2-neoforge-1.0.18`
 
 <hr>
 
-<p><strong>JAR</strong>: <code>tower_waystone-26.2-neoforge-1.0.X.jar</code></p>
+<p><strong>JAR</strong>: <code>tower_waystone-26.2-neoforge-0.0.0-beta.X.jar</code></p>
 ```
 
 ## Subir archivo (JAR) con Python
@@ -82,10 +82,10 @@ version = "1.0.X"
 
 metadata = {
     "displayName": f"Tower Waystone ({version})",
-    "changelog": "<h2>v1.0.X - Titulo</h2>",
+    "changelog": "<h2>v0.0.0-beta.X - Titulo</h2>",
     "changelogType": "html",
     "gameVersionNames": ["Client", "Server", "26.2", "NeoForge"],
-    "releaseType": "release"
+    "releaseType": "beta"
 }
 
 with open(f"build/libs/tower_waystone-26.2-neoforge-{version}.jar", "rb") as f:
@@ -94,26 +94,15 @@ with open(f"build/libs/tower_waystone-26.2-neoforge-{version}.jar", "rb") as f:
 meta_bytes = json.dumps(metadata, ensure_ascii=False).encode("utf-8")
 
 body = b""
-body += f"--{boundary}
-".encode()
-body += b'Content-Disposition: form-data; name="metadata"
-'
-body += b"Content-Type: application/json
-
-"
-body += meta_bytes + b"
-"
-body += f"--{boundary}
-".encode()
-body += b'Content-Disposition: form-data; name="file"; filename="tower_waystone-26.2-neoforge-{version}.jar"
-'
-body += b"Content-Type: application/java-archive
-
-"
-body += jar_data + b"
-"
-body += f"--{boundary}--
-".encode()
+body += f"--{boundary}\r\n".encode()
+body += b'Content-Disposition: form-data; name="metadata"\r\n'
+body += b"Content-Type: application/json\r\n\r\n"
+body += meta_bytes + b"\r\n"
+body += f"--{boundary}\r\n".encode()
+body += f'Content-Disposition: form-data; name="file"; filename="tower_waystone-26.2-neoforge-{version}.jar"\r\n'.encode()
+body += b"Content-Type: application/java-archive\r\n\r\n"
+body += jar_data + b"\r\n"
+body += f"--{boundary}--\r\n".encode()
 
 req = urllib.request.Request(
     f"https://minecraft.curseforge.com/api/projects/1601435/upload-file",
@@ -129,6 +118,31 @@ resp = urllib.request.urlopen(req)
 print(resp.read().decode())
 ```
 
+## Verificar con GET
+
+```bash
+curl -s "https://api.curseforge.com/v1/mods/1601435/files/<FILE_ID>" \
+  -H "x-api-key: $2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO"
+```
+
+## Changelog
+
+```bash
+curl -s "https://api.curseforge.com/v1/mods/1601435/files/<FILE_ID>/changelog" \
+  -H "x-api-key: $2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO"
+```
+
 ## Descripcion del proyecto
 
 No hay endpoint API para actualizar la descripcion. Se edita manualmente desde la web de CurseForge pegando el HTML de `docs/curseforge/project_description.md`.
+
+## Flujo completo
+
+1. `./gradlew clean build`
+2. Actualizar `docs/curseforge/versions/<version>.md` con HTML
+3. Actualizar `CHANGELOG.md`
+4. `git commit -m "fix: descripcion\n\nvX.Y.Z"` + `git push`
+5. `git tag -a 26.1.2-neoforge-<version> -m "vX.Y.Z: descripcion"` + `git push origin <tag>`
+6. Subir JAR a CurseForge con Python
+7. Verificar con GET que el changelog se vea bien
+8. Liberar manualmente desde la web si es necesario
