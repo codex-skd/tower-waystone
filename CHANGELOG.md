@@ -1,5 +1,9 @@
 # Registro de cambios
 
+## 0.0.0-beta.3 — 2026-07-27
+### Fixed
+- Corregido el nombre del JAR en el script de subida a CurseForge — el `{version}` ahora se interpola correctamente como f-string
+
 ## 0.0.0-beta.2 — 2026-07-27
 ### Added
 - **Nether blackstone towers** — generate in Nether biomes using polished blackstone
