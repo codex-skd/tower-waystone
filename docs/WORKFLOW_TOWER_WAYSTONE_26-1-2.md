@@ -1,6 +1,6 @@
 # Flujo de trabajo — Tower Waystone (NeoForge)
 
-> **Versión del workflow**: 1.2.7 (codex-docs)
+> **Versión del workflow**: 1.4.0 (codex-docs)
 > Este archivo pertenece al proyecto **Tower Waystone**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -33,6 +33,47 @@ Reglas:
   - `carry_mechanics` → clase `CarryMechanics`, no `Carrymechanics`
   - `dinamyc_combat` → clase `DinamycCombat` (respetando el mod_id existente)
 - Las config keys en camelCase: `ageforgedArmor.enableFeature`
+
+## Organización en el workspace
+
+Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`), tengan una o varias versiones de Minecraft:
+
+```
+<mod_id>/                    # Carpeta padre del mod (solo organizativa, sin .git)
+└── <minecraft_version>/     # Proyecto real con su propio .git y repositorio GitLab
+    ├── .git/
+    ├── build.gradle
+    ├── gradle.properties
+    ├── src/
+    ├── docs/
+    └── ...
+```
+
+Ejemplo real actual:
+
+```
+teleport_animation/          # Mod padre (organizativo)
+├── 26.1.2/                  # Repositorio independiente en GitLab
+│   ├── .git/
+│   ├── gradle.properties → minecraft_version=26.1.2
+│   └── ...
+└── 26.1.2/                  # Repositorio independiente en GitLab
+    ├── .git/
+    ├── gradle.properties → minecraft_version=26.1.2
+    └── ...
+
+info_tab/
+└── 26.1.2/                  # Repositorio independiente
+    ├── .git/
+    └── ...
+```
+
+**Reglas:**
+- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
+- Cada `<minecraft_version>/` tiene su propio `.git/` y es un repositorio independiente en GitLab
+- El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
+- La rama default del repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md` (ej: `WORKFLOW_INFO_TAB_26-1-2.md`)
 
 ## Tipografía
 
@@ -249,11 +290,11 @@ Cada vez que se crea una rama `production` para una nueva versión, la agente (s
 **1. La agente crea la rama `*/main`** (al crear `production`):
 
 ```bash
-# Ejemplo: para minecraft/26.1.2/neoforge-26.1.2.78/production
-git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
-git checkout -b minecraft/26.1.2/neoforge-26.1.2.78/main
-git push origin minecraft/26.1.2/neoforge-26.1.2.78/main
-git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
+# Ejemplo: para minecraft/26.1.2/neoforge-21.1/production
+git checkout minecraft/26.1.2/neoforge-21.1/production
+git checkout -b minecraft/26.1.2/neoforge-21.1/main
+git push origin minecraft/26.1.2/neoforge-21.1/main
+git checkout minecraft/26.1.2/neoforge-21.1/production
 ```
 
 Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `*/main` actualizada con force push automático.
@@ -643,6 +684,9 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.4.0 | 2026-07-23 | Organización en workspace: todos los mods usan `<mod_id>/<mc-version>/` tengan 1 o N versiones |
+| 1.3.0 | 2026-07-23 | Nueva sección: organización multi-versión con estructura `<mod_id>/<mc-version>/` |
+| 1.2.7 | 2026-07-23 | Corrección: default branch = production, protected branch = */main |
 | 1.2.6 | 2026-07-23 | Fix YAML en CI: `|| (&&)` reemplazado por bloque `if` para evitar error de sintaxis |
 | 1.2.5 | 2026-07-23 | `*/main` es ahora la rama por defecto, `main` raíz eliminada |
 | 1.2.4 | 2026-07-23 | Roles clarificados: agente crea `*/main`, operador elimina `main` raíz + protege + mirror |
