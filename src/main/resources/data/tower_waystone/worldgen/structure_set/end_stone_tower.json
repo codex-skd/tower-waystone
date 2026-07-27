@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tower_waystone:end_stone_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 32,
+    "salt": 1287364
+  }
+}

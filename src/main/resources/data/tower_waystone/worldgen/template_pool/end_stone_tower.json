@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tower_waystone:waystone_tower",
+        "projection": "rigid",
+        "processors": "tower_waystone:end_stone_processor"
+      }
+    }
+  ]
+}

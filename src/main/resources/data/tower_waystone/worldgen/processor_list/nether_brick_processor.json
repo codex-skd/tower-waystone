@@ -1,0 +1,18 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        { "output_state": { "Name": "minecraft:nether_bricks" }, "input_predicate": { "block": "minecraft:andesite", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:nether_bricks" }, "input_predicate": { "block": "minecraft:polished_andesite", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:nether_brick_slab", "Properties": { "type": "bottom", "waterlogged": "false" } }, "input_predicate": { "block": "minecraft:polished_andesite_slab", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:nether_brick_stairs", "Properties": { "facing": "north", "half": "bottom", "shape": "straight", "waterlogged": "false" } }, "input_predicate": { "block": "minecraft:polished_andesite_stairs", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:nether_brick_wall", "Properties": { "east": "none", "north": "none", "south": "none", "up": "false", "waterlogged": "false", "west": "none" } }, "input_predicate": { "block": "minecraft:andesite_wall", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:shroomlight" }, "input_predicate": { "block": "minecraft:sea_lantern", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:crimson_nylium" }, "input_predicate": { "block": "minecraft:dark_prismarine", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:soul_soil" }, "input_predicate": { "block": "minecraft:dirt", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } },
+        { "output_state": { "Name": "minecraft:soul_soil" }, "input_predicate": { "block": "minecraft:grass_block", "predicate_type": "minecraft:block_match" }, "location_predicate": { "predicate_type": "minecraft:always_true" } }
+      ]
+    }
+  ]
+}
