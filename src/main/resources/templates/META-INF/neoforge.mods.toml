@@ -1,0 +1,31 @@
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://youtube.com/Ner07"
+logoFile="logo.png"
+credits="Original concept by Ner07CA | Ported by Stalking Dragons"
+description='''Generates stone towers with waystones across your world — pair with the Waystones mod for fast travel between them.'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="waystones"
+    type="required"
+    versionRange="[26.2,)"
+    ordering="AFTER"
+    side="BOTH"
