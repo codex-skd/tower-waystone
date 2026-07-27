@@ -1,0 +1,524 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "build.gradle",
+      "id": "build",
+      "community_name": "build.gradle"
+    },
+    {
+      "label": "gradlew",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "gradlew",
+      "id": "gradlew",
+      "community_name": "gradlew"
+    },
+    {
+      "label": "gradlew script",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "gradlew script",
+      "id": "gradlew__entry",
+      "community_name": "gradlew"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "warn()",
+      "id": "gradlew_warn",
+      "community_name": "gradlew"
+    },
+    {
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "die()",
+      "id": "gradlew_die",
+      "community_name": "gradlew"
+    },
+    {
+      "label": "settings.gradle",
+      "file_type": "code",
+      "source_file": "settings.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "settings.gradle",
+      "id": "settings",
+      "community_name": "settings.gradle"
+    },
+    {
+      "label": "WaystoneNamer.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "waystonenamer.java",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "WaystoneNamer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "waystonenamer",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "blockpos",
+      "id": "blockpos",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": ".onChunkLoad()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": ".onchunkload()",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "Load",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "load",
+      "id": "load",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "subscribeevent",
+      "id": "subscribeevent",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": ".nameWaystone()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": ".namewaystone()",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "ServerLevel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "serverlevel",
+      "id": "serverlevel",
+      "community_name": "WaystoneNamer"
+    },
+    {
+      "label": "WaystoneTowersMod.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "waystonetowersmod.java",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "community_name": "WaystoneTowersMod.java"
+    },
+    {
+      "label": "WaystoneTowersMod",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "waystonetowersmod",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "community_name": "WaystoneTowersMod.java"
+    },
+    {
+      "label": "Mod",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "mod",
+      "id": "mod",
+      "community_name": "WaystoneTowersMod.java"
+    },
+    {
+      "label": "Logger",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "logger",
+      "id": "logger",
+      "community_name": "WaystoneTowersMod.java"
+    },
+    {
+      "label": ".WaystoneTowersMod()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".waystonetowersmod()",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "community_name": "WaystoneTowersMod.java"
+    },
+    {
+      "label": "IEventBus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "ieventbus",
+      "id": "ieventbus",
+      "community_name": "WaystoneTowersMod.java"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gradlew",
+      "target": "gradlew__entry"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gradlew",
+      "target": "gradlew_die"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gradlew",
+      "target": "gradlew_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "gradlew__entry",
+      "target": "gradlew_die"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "gradlew__entry",
+      "target": "gradlew_warn"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "blockpos"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "serverlevel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "subscribeevent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "blockpos"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "blockpos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "load"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "attribute",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "subscribeevent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "serverlevel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "ieventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "logger"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "mod"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "logger"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "mod"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "ieventbus"
+    }
+  ],
+  "hyperedges": []
+}
