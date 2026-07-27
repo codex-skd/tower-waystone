@@ -1,0 +1,1504 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "build",
+      "community": 3,
+      "norm_label": "build.gradle"
+    },
+    {
+      "label": "gradlew",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "gradlew",
+      "community": 2,
+      "norm_label": "gradlew"
+    },
+    {
+      "label": "gradlew script",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "gradlew__entry",
+      "community": 2,
+      "norm_label": "gradlew script"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "gradlew_warn",
+      "community": 2,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "gradlew_die",
+      "community": 2,
+      "norm_label": "die()"
+    },
+    {
+      "label": "settings.gradle",
+      "file_type": "code",
+      "source_file": "settings.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings",
+      "community": 4,
+      "norm_label": "settings.gradle"
+    },
+    {
+      "label": "WaystoneNamer.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "community": 0,
+      "norm_label": "waystonenamer.java"
+    },
+    {
+      "label": "WaystoneNamer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "community": 0,
+      "norm_label": "waystonenamer"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockpos",
+      "community": 0,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": ".onChunkLoad()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "community": 0,
+      "norm_label": ".onchunkload()"
+    },
+    {
+      "label": "Load",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "load",
+      "community": 0,
+      "norm_label": "load"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "subscribeevent",
+      "community": 0,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".nameWaystone()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "community": 0,
+      "norm_label": ".namewaystone()"
+    },
+    {
+      "label": "ServerLevel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "serverlevel",
+      "community": 0,
+      "norm_label": "serverlevel"
+    },
+    {
+      "label": "WaystoneTowersMod.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "community": 1,
+      "norm_label": "waystonetowersmod.java"
+    },
+    {
+      "label": "WaystoneTowersMod",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "community": 1,
+      "norm_label": "waystonetowersmod"
+    },
+    {
+      "label": "Mod",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mod",
+      "community": 1,
+      "norm_label": "mod"
+    },
+    {
+      "label": "Logger",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "logger",
+      "community": 1,
+      "norm_label": "logger"
+    },
+    {
+      "label": ".WaystoneTowersMod()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "community": 1,
+      "norm_label": ".waystonetowersmod()"
+    },
+    {
+      "label": "IEventBus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ieventbus",
+      "community": 1,
+      "norm_label": "ieventbus"
+    },
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 8,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Registro de cambios",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_registro_de_cambios",
+      "community": 8,
+      "norm_label": "registro de cambios"
+    },
+    {
+      "label": "0.0.0-beta.2 \u2014 2026-07-27",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_2_2026_07_27",
+      "community": 9,
+      "norm_label": "0.0.0-beta.2 \u2014 2026-07-27"
+    },
+    {
+      "label": "Added",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "changelog_added",
+      "community": 9,
+      "norm_label": "added"
+    },
+    {
+      "label": "Changed",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "changelog_changed",
+      "community": 9,
+      "norm_label": "changed"
+    },
+    {
+      "label": "0.0.0-beta.1 \u2014 2026-07-27",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_1_2026_07_27",
+      "community": 11,
+      "norm_label": "0.0.0-beta.1 \u2014 2026-07-27"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "changelog_cambiado",
+      "community": 11,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.18 \u2014 2026-07-11",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "changelog_1_0_18_2026_07_11",
+      "community": 15,
+      "norm_label": "1.0.18 \u2014 2026-07-11"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "changelog_cambiado_22",
+      "community": 15,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.17 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "changelog_1_0_17_2026_07_10",
+      "community": 14,
+      "norm_label": "1.0.17 \u2014 2026-07-10"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "changelog_corregido",
+      "community": 14,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.16 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "changelog_1_0_16_2026_07_10",
+      "community": 13,
+      "norm_label": "1.0.16 \u2014 2026-07-10"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "changelog_cambiado_35",
+      "community": 13,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.15 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "changelog_1_0_15_2026_07_10",
+      "community": 10,
+      "norm_label": "1.0.15 \u2014 2026-07-10"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "changelog_cambiado_39",
+      "community": 10,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "Eliminado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "changelog_eliminado",
+      "community": 10,
+      "norm_label": "eliminado"
+    },
+    {
+      "label": "1.0.10 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "changelog_1_0_10_2026_07_08",
+      "community": 12,
+      "norm_label": "1.0.10 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "changelog_corregido_47",
+      "community": 12,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.9 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "changelog_1_0_9_2026_07_08",
+      "community": 18,
+      "norm_label": "1.0.9 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "changelog_corregido_51",
+      "community": 18,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.8 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "changelog_1_0_8_2026_07_08",
+      "community": 17,
+      "norm_label": "1.0.8 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "changelog_corregido_55",
+      "community": 17,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.7 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "changelog_1_0_7_2026_07_08",
+      "community": 16,
+      "norm_label": "1.0.7 \u2014 2026-07-08"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "changelog_cambiado_59",
+      "community": 16,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.6 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "changelog_1_0_6_2026_07_08",
+      "community": 8,
+      "norm_label": "1.0.6 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "changelog_corregido_63",
+      "community": 8,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 7,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Tower Waystone",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "readme_tower_waystone",
+      "community": 7,
+      "norm_label": "tower waystone"
+    },
+    {
+      "label": "Variants",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "readme_variants",
+      "community": 7,
+      "norm_label": "variants"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 7,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Building",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "readme_building",
+      "community": 7,
+      "norm_label": "building"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 7,
+      "norm_label": "license"
+    },
+    {
+      "label": "WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2",
+      "community": 6,
+      "norm_label": "workflow_tower_waystone_26-2.md"
+    },
+    {
+      "label": "Flujo de trabajo \ufffd Tower Waystone (NeoForge)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "community": 6,
+      "norm_label": "flujo de trabajo \ufffd tower waystone (neoforge)"
+    },
+    {
+      "label": "Ramas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2_ramas",
+      "community": 6,
+      "norm_label": "ramas"
+    },
+    {
+      "label": "Inicializaci\ufffdn \ufffdnica de rama */main",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2_inicializaci_n_nica_de_rama_main",
+      "community": 6,
+      "norm_label": "inicializaci\ufffdn \ufffdnica de rama */main"
+    },
+    {
+      "label": "JAR naming",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2_jar_naming",
+      "community": 6,
+      "norm_label": "jar naming"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_2_tags",
+      "community": 6,
+      "norm_label": "tags"
+    },
+    {
+      "label": "project_description.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_description.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_description",
+      "community": 19,
+      "norm_label": "project_description.md"
+    },
+    {
+      "label": "project_vars.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars",
+      "community": 5,
+      "norm_label": "project_vars.md"
+    },
+    {
+      "label": "CurseForge \ufffd Variables del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "community": 5,
+      "norm_label": "curseforge \ufffd variables del proyecto"
+    },
+    {
+      "label": "Proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_proyecto",
+      "community": 5,
+      "norm_label": "proyecto"
+    },
+    {
+      "label": "Tokens",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tokens",
+      "community": 5,
+      "norm_label": "tokens"
+    },
+    {
+      "label": "Versi\ufffdn actual",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_versi_n_actual",
+      "community": 5,
+      "norm_label": "versi\ufffdn actual"
+    },
+    {
+      "label": "Rama",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_rama",
+      "community": 5,
+      "norm_label": "rama"
+    },
+    {
+      "label": "Tag",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tag",
+      "community": 5,
+      "norm_label": "tag"
+    },
+    {
+      "label": "Par\ufffdmetros del upload",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_par_metros_del_upload",
+      "community": 5,
+      "norm_label": "par\ufffdmetros del upload"
+    },
+    {
+      "label": "Estructura del changelog (HTML)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "community": 5,
+      "norm_label": "estructura del changelog (html)"
+    },
+    {
+      "label": "Subir archivo (JAR) con Python",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_subir_archivo_jar_con_python",
+      "community": 5,
+      "norm_label": "subir archivo (jar) con python"
+    },
+    {
+      "label": "Descripcion del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "community": 5,
+      "norm_label": "descripcion del proyecto"
+    },
+    {
+      "label": "0.0.0-beta.1.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_1",
+      "community": 20,
+      "norm_label": "0.0.0-beta.1.md"
+    },
+    {
+      "label": "0.0.0-beta.2.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_2",
+      "community": 21,
+      "norm_label": "0.0.0-beta.2.md"
+    },
+    {
+      "label": "1.0.10.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.10.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_10",
+      "community": 22,
+      "norm_label": "1.0.10.md"
+    },
+    {
+      "label": "1.0.17.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.17.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_17",
+      "community": 23,
+      "norm_label": "1.0.17.md"
+    },
+    {
+      "label": "1.0.18.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.18.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_18",
+      "community": 24,
+      "norm_label": "1.0.18.md"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gradlew",
+      "target": "gradlew__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "gradlew",
+      "target": "gradlew_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "gradlew",
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "call",
+      "source": "gradlew__entry",
+      "target": "gradlew_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "call",
+      "source": "gradlew__entry",
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_registro_de_cambios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_0_0_0_beta_1_2026_07_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_0_0_0_beta_2_2026_07_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_10_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_15_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_16_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_17_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_18_2026_07_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_6_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_7_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_8_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_9_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_2_2026_07_27",
+      "target": "changelog_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_2_2026_07_27",
+      "target": "changelog_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_1_2026_07_27",
+      "target": "changelog_cambiado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "changelog_1_0_18_2026_07_11",
+      "target": "changelog_cambiado_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "changelog_1_0_17_2026_07_10",
+      "target": "changelog_corregido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "changelog_1_0_16_2026_07_10",
+      "target": "changelog_cambiado_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "changelog_1_0_15_2026_07_10",
+      "target": "changelog_cambiado_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "changelog_1_0_15_2026_07_10",
+      "target": "changelog_eliminado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "changelog_1_0_10_2026_07_08",
+      "target": "changelog_corregido_47",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "changelog_1_0_9_2026_07_08",
+      "target": "changelog_corregido_51",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "changelog_1_0_8_2026_07_08",
+      "target": "changelog_corregido_55",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "changelog_1_0_7_2026_07_08",
+      "target": "changelog_cambiado_59",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "changelog_1_0_6_2026_07_08",
+      "target": "changelog_corregido_63",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_tower_waystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_building",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_variants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_2",
+      "target": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_2_inicializaci_n_nica_de_rama_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_2_jar_naming",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_2_ramas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_2_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars",
+      "target": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_par_metros_del_upload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_rama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_subir_archivo_jar_con_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_versi_n_actual",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
