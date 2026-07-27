@@ -1,5 +1,16 @@
 # Registro de cambios
 
+## 0.0.0-beta.2 — 2026-07-27
+### Added
+- **Nether blackstone towers** — generate in Nether biomes using polished blackstone
+- **Nether brick towers** — generate in Nether biomes using nether bricks
+- **End stone towers** — generate in End biomes using end stone bricks
+- **End purpur towers** — generate in End biomes using purpur blocks
+- All new variants reuse the existing tower NBT with block-replacement processors
+
+### Changed
+- Updated README with 8 tower variants (4 Overworld + 2 Nether + 2 End)
+
 ## 0.0.0-beta.1 — 2026-07-27
 ### Cambiado
 - Portado de Minecraft 26.1.2 a **26.2** (NeoForge 26.2.0.32-beta)

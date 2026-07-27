@@ -11,6 +11,10 @@ Stone towers with waystones scattered across your world. Activate the waystones 
 | Sandy | Deserts, badlands |
 | Mossy | Jungles, swamps, mangroves, taigas |
 | Snowy | Frozen peaks, snowy plains, ice spikes, groves |
+| Nether Blackstone | Nether wastes, soul sand valleys, crimson forests, warped forests, basalt deltas |
+| Nether Brick | Nether wastes, soul sand valleys, crimson forests, warped forests, basalt deltas |
+| End Stone | End highlands, end midlands, end barrens, small end islands |
+| End Purpur | End highlands, end midlands, end barrens, small end islands |
 
 ## Requirements
 
