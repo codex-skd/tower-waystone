@@ -1,5 +1,16 @@
 # Registro de cambios
 
+## 1.1.0 — 2026-07-27
+### Added
+- **Nether blackstone towers** — generate in Nether biomes using polished blackstone
+- **Nether brick towers** — generate in Nether biomes using nether bricks
+- **End stone towers** — generate in End biomes using end stone bricks
+- **End purpur towers** — generate in End biomes using purpur blocks
+- All new variants reuse the existing tower NBT with block-replacement processors
+
+### Changed
+- Updated README with 8 tower variants (4 Overworld + 2 Nether + 2 End)
+
 ## 1.0.18 — 2026-07-11
 ### Cambiado
 - Reestructurado el repositorio siguiendo el flujo de trabajo definido en `docs/WORKFLOW.md`:
