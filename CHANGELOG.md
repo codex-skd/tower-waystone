@@ -1,5 +1,11 @@
 # Registro de cambios
 
+## 0.0.0-beta.5 — 2026-07-28
+### Added
+- **Custom dimension support**: add `config/tower_waystone/custom_dimensions.json` to generate towers in any modded dimension
+- Block validation with automatic fallback — invalid blocks fall back to defaults, server won't crash
+- Documentation in `docs/custom_dimensions.md`
+
 ## 0.0.0-beta.4 — 2026-07-28
 ### Fixed
 - Corregido `end_purpur_processor.json`: `minecraft:purpur_wall` no existe — reemplazado por `end_stone_brick_wall`
