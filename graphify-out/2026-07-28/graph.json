@@ -1,0 +1,2274 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "build",
+      "community": 3,
+      "norm_label": "build.gradle"
+    },
+    {
+      "label": "gradlew",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "g_proyectos_mods_minecraft_tower_waystone_gradlew",
+      "community": 11,
+      "norm_label": "gradlew"
+    },
+    {
+      "label": "gradlew script",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "g_proyectos_mods_minecraft_tower_waystone_gradlew__entry",
+      "community": 11,
+      "norm_label": "gradlew script"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "g_proyectos_mods_minecraft_tower_waystone_gradlew_warn",
+      "community": 11,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "g_proyectos_mods_minecraft_tower_waystone_gradlew_die",
+      "community": 11,
+      "norm_label": "die()"
+    },
+    {
+      "label": "settings.gradle",
+      "file_type": "code",
+      "source_file": "settings.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "g_proyectos_mods_minecraft_tower_waystone_settings_gradle",
+      "community": 17,
+      "norm_label": "settings.gradle"
+    },
+    {
+      "label": "WaystoneNamer.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "community": 0,
+      "norm_label": "waystonenamer.java"
+    },
+    {
+      "label": "WaystoneNamer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "community": 0,
+      "norm_label": "waystonenamer"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockpos",
+      "community": 0,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": ".onChunkLoad()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "community": 0,
+      "norm_label": ".onchunkload()"
+    },
+    {
+      "label": "Load",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "load",
+      "community": 0,
+      "norm_label": "load"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "subscribeevent",
+      "community": 0,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".nameWaystone()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "community": 0,
+      "norm_label": ".namewaystone()"
+    },
+    {
+      "label": "ServerLevel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "serverlevel",
+      "community": 0,
+      "norm_label": "serverlevel"
+    },
+    {
+      "label": "WaystoneTowersMod.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "community": 1,
+      "norm_label": "waystonetowersmod.java"
+    },
+    {
+      "label": "WaystoneTowersMod",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "community": 1,
+      "norm_label": "waystonetowersmod"
+    },
+    {
+      "label": "Mod",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mod",
+      "community": 1,
+      "norm_label": "mod"
+    },
+    {
+      "label": "Logger",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "logger",
+      "community": 1,
+      "norm_label": "logger"
+    },
+    {
+      "label": ".WaystoneTowersMod()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "community": 1,
+      "norm_label": ".waystonetowersmod()"
+    },
+    {
+      "label": "IEventBus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ieventbus",
+      "community": 1,
+      "norm_label": "ieventbus"
+    },
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 2,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Registro de cambios",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_registro_de_cambios",
+      "community": 2,
+      "norm_label": "registro de cambios"
+    },
+    {
+      "label": "1.1.0 \u2014 2026-07-27",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_1_1_0_2026_07_27",
+      "community": 2,
+      "norm_label": "1.1.0 \u2014 2026-07-27"
+    },
+    {
+      "label": "Added",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "changelog_added",
+      "community": 2,
+      "norm_label": "added"
+    },
+    {
+      "label": "Changed",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "changelog_changed",
+      "community": 2,
+      "norm_label": "changed"
+    },
+    {
+      "label": "1.0.18 \u2014 2026-07-11",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "changelog_1_0_18_2026_07_11",
+      "community": 2,
+      "norm_label": "1.0.18 \u2014 2026-07-11"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "changelog_cambiado",
+      "community": 2,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.17 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "changelog_1_0_17_2026_07_10",
+      "community": 2,
+      "norm_label": "1.0.17 \u2014 2026-07-10"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "changelog_corregido",
+      "community": 2,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.16 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "changelog_1_0_16_2026_07_10",
+      "community": 2,
+      "norm_label": "1.0.16 \u2014 2026-07-10"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "changelog_cambiado_28",
+      "community": 2,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.15 \u2014 2026-07-10",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "changelog_1_0_15_2026_07_10",
+      "community": 2,
+      "norm_label": "1.0.15 \u2014 2026-07-10"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "changelog_cambiado_32",
+      "community": 2,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "Eliminado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "changelog_eliminado",
+      "community": 2,
+      "norm_label": "eliminado"
+    },
+    {
+      "label": "1.0.10 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "changelog_1_0_10_2026_07_08",
+      "community": 2,
+      "norm_label": "1.0.10 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "changelog_corregido_40",
+      "community": 2,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.9 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "changelog_1_0_9_2026_07_08",
+      "community": 2,
+      "norm_label": "1.0.9 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "changelog_corregido_44",
+      "community": 2,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.8 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "changelog_1_0_8_2026_07_08",
+      "community": 2,
+      "norm_label": "1.0.8 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "changelog_corregido_48",
+      "community": 2,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "1.0.7 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "changelog_1_0_7_2026_07_08",
+      "community": 2,
+      "norm_label": "1.0.7 \u2014 2026-07-08"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "changelog_cambiado_52",
+      "community": 2,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "1.0.6 \u2014 2026-07-08",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "changelog_1_0_6_2026_07_08",
+      "community": 2,
+      "norm_label": "1.0.6 \u2014 2026-07-08"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "changelog_corregido_56",
+      "community": 2,
+      "norm_label": "corregido"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 8,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Tower Waystone",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "readme_tower_waystone",
+      "community": 8,
+      "norm_label": "tower waystone"
+    },
+    {
+      "label": "Variants",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "readme_variants",
+      "community": 8,
+      "norm_label": "variants"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 8,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Building",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "readme_building",
+      "community": 8,
+      "norm_label": "building"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 8,
+      "norm_label": "license"
+    },
+    {
+      "label": "WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2",
+      "community": 4,
+      "norm_label": "workflow_tower_waystone_26-1-2.md"
+    },
+    {
+      "label": "Flujo de trabajo \u2014 Tower Waystone (NeoForge)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "community": 4,
+      "norm_label": "flujo de trabajo \u2014 tower waystone (neoforge)"
+    },
+    {
+      "label": "Convenciones de nomenclatura",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_convenciones_de_nomenclatura",
+      "community": 4,
+      "norm_label": "convenciones de nomenclatura"
+    },
+    {
+      "label": "Ficheros de documentaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ficheros_de_documentaci\u00f3n",
+      "community": 4,
+      "norm_label": "ficheros de documentacion"
+    },
+    {
+      "label": "Organizaci\u00f3n en el workspace",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_organizaci\u00f3n_en_el_workspace",
+      "community": 4,
+      "norm_label": "organizacion en el workspace"
+    },
+    {
+      "label": "Tipograf\u00eda",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_tipograf\u00eda",
+      "community": 4,
+      "norm_label": "tipografia"
+    },
+    {
+      "label": "Estructura del proyecto",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_estructura_del_proyecto",
+      "community": 7,
+      "norm_label": "estructura del proyecto"
+    },
+    {
+      "label": "Archivos de CurseForge",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_archivos_de_curseforge",
+      "community": 7,
+      "norm_label": "archivos de curseforge"
+    },
+    {
+      "label": "Formato de descripciones CurseForge",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "community": 7,
+      "norm_label": "formato de descripciones curseforge"
+    },
+    {
+      "label": "Estructura de la descripci\u00f3n general",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_estructura_de_la_descripci\u00f3n_general",
+      "community": 7,
+      "norm_label": "estructura de la descripcion general"
+    },
+    {
+      "label": "Elementos HTML disponibles",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L167",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_elementos_html_disponibles",
+      "community": 7,
+      "norm_label": "elementos html disponibles"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L186",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_buenas_pr\u00e1cticas",
+      "community": 7,
+      "norm_label": "buenas practicas"
+    },
+    {
+      "label": "Formato del changelog",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_formato_del_changelog",
+      "community": 7,
+      "norm_label": "formato del changelog"
+    },
+    {
+      "label": "Ejemplo de estructura HTML para release notes",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L206",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ejemplo_de_estructura_html_para_release_notes",
+      "community": 7,
+      "norm_label": "ejemplo de estructura html para release notes"
+    },
+    {
+      "label": "Elementos HTML permitidos",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L222",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_elementos_html_permitidos",
+      "community": 7,
+      "norm_label": "elementos html permitidos"
+    },
+    {
+      "label": "Ramas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L237",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "community": 9,
+      "norm_label": "ramas"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L239",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_estructura",
+      "community": 9,
+      "norm_label": "estructura"
+    },
+    {
+      "label": "Ejemplos",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L247",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ejemplos",
+      "community": 9,
+      "norm_label": "ejemplos"
+    },
+    {
+      "label": "Esquema de publicaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L256",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_esquema_de_publicaci\u00f3n",
+      "community": 9,
+      "norm_label": "esquema de publicacion"
+    },
+    {
+      "label": "Inicializaci\u00f3n \u00fanica de cada rama `*/main`",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L277",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_inicializaci\u00f3n_\u00fanica_de_cada_rama_main",
+      "community": 9,
+      "norm_label": "inicializacion unica de cada rama `*/main`"
+    },
+    {
+      "label": "Versionado",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L313",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_versionado",
+      "community": 10,
+      "norm_label": "versionado"
+    },
+    {
+      "label": "Esquema",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_esquema",
+      "community": 10,
+      "norm_label": "esquema"
+    },
+    {
+      "label": "\u00bfCu\u00e1ndo incrementar versi\u00f3n?",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L327",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_cu\u00e1ndo_incrementar_versi\u00f3n",
+      "community": 10,
+      "norm_label": "\u00bfcuando incrementar version?"
+    },
+    {
+      "label": "Nombre del JAR",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L338",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_nombre_del_jar",
+      "community": 10,
+      "norm_label": "nombre del jar"
+    },
+    {
+      "label": "Commits (Conventional Commits)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L357",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_commits_conventional_commits",
+      "community": 4,
+      "norm_label": "commits (conventional commits)"
+    },
+    {
+      "label": "Tipos",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_tipos",
+      "community": 4,
+      "norm_label": "tipos"
+    },
+    {
+      "label": "Ejemplos",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L380",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ejemplos_380",
+      "community": 4,
+      "norm_label": "ejemplos"
+    },
+    {
+      "label": "Tags (GitLab)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L400",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_tags_gitlab",
+      "community": 4,
+      "norm_label": "tags (gitlab)"
+    },
+    {
+      "label": "Formato del tag",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L404",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_formato_del_tag",
+      "community": 4,
+      "norm_label": "formato del tag"
+    },
+    {
+      "label": "Ejemplos",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L413",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_ejemplos_413",
+      "community": 4,
+      "norm_label": "ejemplos"
+    },
+    {
+      "label": "Publicaci\u00f3n a GitHub (CI/CD)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L427",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "community": 6,
+      "norm_label": "publicacion a github (ci/cd)"
+    },
+    {
+      "label": "Variables de CI/CD (grupo GitLab)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L437",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_variables_de_ci_cd_grupo_gitlab",
+      "community": 6,
+      "norm_label": "variables de ci/cd (grupo gitlab)"
+    },
+    {
+      "label": "Requisito previo",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L449",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_requisito_previo",
+      "community": 6,
+      "norm_label": "requisito previo"
+    },
+    {
+      "label": ".gitlab-ci.yml",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L453",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_gitlab_ci_yml",
+      "community": 6,
+      "norm_label": ".gitlab-ci.yml"
+    },
+    {
+      "label": "Archivos que pasan a GitHub",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L516",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_archivos_que_pasan_a_github",
+      "community": 6,
+      "norm_label": "archivos que pasan a github"
+    },
+    {
+      "label": "1. Desarrollo",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L535",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_1_desarrollo",
+      "community": 6,
+      "norm_label": "1. desarrollo"
+    },
+    {
+      "label": "2. Copiar a instancia de pruebas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L555",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_2_copiar_a_instancia_de_pruebas",
+      "community": 6,
+      "norm_label": "2. copiar a instancia de pruebas"
+    },
+    {
+      "label": "3. Probar en instancia",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L570",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_3_probar_en_instancia",
+      "community": 6,
+      "norm_label": "3. probar en instancia"
+    },
+    {
+      "label": "4. Preparar versi\u00f3n para CurseForge",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L576",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_4_preparar_versi\u00f3n_para_curseforge",
+      "community": 6,
+      "norm_label": "4. preparar version para curseforge"
+    },
+    {
+      "label": "5. Release estable",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L613",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_5_release_estable",
+      "community": 6,
+      "norm_label": "5. release estable"
+    },
+    {
+      "label": "6. Actualizar Knowledge Graph (Graphify)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L622",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_6_actualizar_knowledge_graph_graphify",
+      "community": 6,
+      "norm_label": "6. actualizar knowledge graph (graphify)"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L646",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_buenas_pr\u00e1cticas_646",
+      "community": 4,
+      "norm_label": "buenas practicas"
+    },
+    {
+      "label": "Idioma",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L670",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_idioma",
+      "community": 4,
+      "norm_label": "idioma"
+    },
+    {
+      "label": "Historial de versiones del workflow",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L683",
+      "_origin": "ast",
+      "id": "docs_workflow_tower_waystone_26_1_2_historial_de_versiones_del_workflow",
+      "community": 4,
+      "norm_label": "historial de versiones del workflow"
+    },
+    {
+      "label": "project_description.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_description.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_description",
+      "community": 12,
+      "norm_label": "project_description.md"
+    },
+    {
+      "label": "project_vars.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars",
+      "community": 5,
+      "norm_label": "project_vars.md"
+    },
+    {
+      "label": "CurseForge \u2014 Variables del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "community": 5,
+      "norm_label": "curseforge \u2014 variables del proyecto"
+    },
+    {
+      "label": "Proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_proyecto",
+      "community": 5,
+      "norm_label": "proyecto"
+    },
+    {
+      "label": "Tokens",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tokens",
+      "community": 5,
+      "norm_label": "tokens"
+    },
+    {
+      "label": "Versi\u00f3n actual",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_versi\u00f3n_actual",
+      "community": 5,
+      "norm_label": "version actual"
+    },
+    {
+      "label": "Rama",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_rama",
+      "community": 5,
+      "norm_label": "rama"
+    },
+    {
+      "label": "Tag",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tag",
+      "community": 5,
+      "norm_label": "tag"
+    },
+    {
+      "label": "Par\u00e1metros del upload",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_par\u00e1metros_del_upload",
+      "community": 5,
+      "norm_label": "parametros del upload"
+    },
+    {
+      "label": "Estructura del changelog (HTML)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "community": 5,
+      "norm_label": "estructura del changelog (html)"
+    },
+    {
+      "label": "Subir archivo (JAR) con Python",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_subir_archivo_jar_con_python",
+      "community": 5,
+      "norm_label": "subir archivo (jar) con python"
+    },
+    {
+      "label": "Verificar con GET",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_verificar_con_get",
+      "community": 5,
+      "norm_label": "verificar con get"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_changelog",
+      "community": 5,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "Descripcion del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "community": 5,
+      "norm_label": "descripcion del proyecto"
+    },
+    {
+      "label": "Flujo completo",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_flujo_completo",
+      "community": 5,
+      "norm_label": "flujo completo"
+    },
+    {
+      "label": "1.0.10.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.10.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_10",
+      "community": 13,
+      "norm_label": "1.0.10.md"
+    },
+    {
+      "label": "1.0.17.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.17.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_17",
+      "community": 14,
+      "norm_label": "1.0.17.md"
+    },
+    {
+      "label": "1.0.18.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.18.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_18",
+      "community": 15,
+      "norm_label": "1.0.18.md"
+    },
+    {
+      "label": "1.1.0.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.1.0.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_1_0",
+      "community": 16,
+      "norm_label": "1.1.0.md"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "g_proyectos_mods_minecraft_tower_waystone_gradlew",
+      "target": "g_proyectos_mods_minecraft_tower_waystone_gradlew__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "g_proyectos_mods_minecraft_tower_waystone_gradlew",
+      "target": "g_proyectos_mods_minecraft_tower_waystone_gradlew_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "g_proyectos_mods_minecraft_tower_waystone_gradlew",
+      "target": "g_proyectos_mods_minecraft_tower_waystone_gradlew_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "call",
+      "source": "g_proyectos_mods_minecraft_tower_waystone_gradlew__entry",
+      "target": "g_proyectos_mods_minecraft_tower_waystone_gradlew_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "gradlew",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "call",
+      "source": "g_proyectos_mods_minecraft_tower_waystone_gradlew__entry",
+      "target": "g_proyectos_mods_minecraft_tower_waystone_gradlew_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_onchunkload",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneNamer.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonenamer_waystonenamer_namewaystone",
+      "target": "serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod",
+      "target": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_towerwaystone_waystonetowersmod_waystonetowersmod_waystonetowersmod",
+      "target": "ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_registro_de_cambios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_10_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_15_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_16_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_17_2026_07_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_18_2026_07_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_6_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_7_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_8_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_0_9_2026_07_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_registro_de_cambios",
+      "target": "changelog_1_1_0_2026_07_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "changelog_1_1_0_2026_07_27",
+      "target": "changelog_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "changelog_1_1_0_2026_07_27",
+      "target": "changelog_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "changelog_1_0_18_2026_07_11",
+      "target": "changelog_cambiado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "changelog_1_0_17_2026_07_10",
+      "target": "changelog_corregido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "changelog_1_0_16_2026_07_10",
+      "target": "changelog_cambiado_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "changelog_1_0_15_2026_07_10",
+      "target": "changelog_cambiado_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "changelog_1_0_15_2026_07_10",
+      "target": "changelog_eliminado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "changelog_1_0_10_2026_07_08",
+      "target": "changelog_corregido_40",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "changelog_1_0_9_2026_07_08",
+      "target": "changelog_corregido_44",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "changelog_1_0_8_2026_07_08",
+      "target": "changelog_corregido_48",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "changelog_1_0_7_2026_07_08",
+      "target": "changelog_cambiado_52",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "changelog_1_0_6_2026_07_08",
+      "target": "changelog_corregido_56",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_tower_waystone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_building",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "readme_tower_waystone",
+      "target": "readme_variants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2",
+      "target": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L646",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_buenas_pr\u00e1cticas_646",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_commits_conventional_commits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_convenciones_de_nomenclatura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_estructura_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L683",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_historial_de_versiones_del_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L670",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_idioma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_organizaci\u00f3n_en_el_workspace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L400",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_tags_gitlab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_tipograf\u00eda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L313",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_flujo_de_trabajo_tower_waystone_neoforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_versionado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_convenciones_de_nomenclatura",
+      "target": "docs_workflow_tower_waystone_26_1_2_ficheros_de_documentaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_estructura_del_proyecto",
+      "target": "docs_workflow_tower_waystone_26_1_2_archivos_de_curseforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_estructura_del_proyecto",
+      "target": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_buenas_pr\u00e1cticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_ejemplo_de_estructura_html_para_release_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_elementos_html_disponibles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_elementos_html_permitidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_estructura_de_la_descripci\u00f3n_general",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_formato_de_descripciones_curseforge",
+      "target": "docs_workflow_tower_waystone_26_1_2_formato_del_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "target": "docs_workflow_tower_waystone_26_1_2_ejemplos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "target": "docs_workflow_tower_waystone_26_1_2_esquema_de_publicaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "target": "docs_workflow_tower_waystone_26_1_2_estructura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L277",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_ramas",
+      "target": "docs_workflow_tower_waystone_26_1_2_inicializaci\u00f3n_\u00fanica_de_cada_rama_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L327",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_versionado",
+      "target": "docs_workflow_tower_waystone_26_1_2_cu\u00e1ndo_incrementar_versi\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_versionado",
+      "target": "docs_workflow_tower_waystone_26_1_2_esquema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L338",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_versionado",
+      "target": "docs_workflow_tower_waystone_26_1_2_nombre_del_jar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L380",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_commits_conventional_commits",
+      "target": "docs_workflow_tower_waystone_26_1_2_ejemplos_380",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_commits_conventional_commits",
+      "target": "docs_workflow_tower_waystone_26_1_2_tipos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L413",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_tags_gitlab",
+      "target": "docs_workflow_tower_waystone_26_1_2_ejemplos_413",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L404",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_tags_gitlab",
+      "target": "docs_workflow_tower_waystone_26_1_2_formato_del_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L535",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_1_desarrollo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L555",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_2_copiar_a_instancia_de_pruebas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L570",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_3_probar_en_instancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L576",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_4_preparar_versi\u00f3n_para_curseforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L613",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_5_release_estable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L622",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_6_actualizar_knowledge_graph_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L516",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_archivos_que_pasan_a_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_gitlab_ci_yml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L449",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_requisito_previo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_TOWER_WAYSTONE_26-1-2.md",
+      "source_location": "L437",
+      "weight": 1.0,
+      "source": "docs_workflow_tower_waystone_26_1_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_tower_waystone_26_1_2_variables_de_ci_cd_grupo_gitlab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars",
+      "target": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_flujo_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_par\u00e1metros_del_upload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_rama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_subir_archivo_jar_con_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_verificar_con_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_versi\u00f3n_actual",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
