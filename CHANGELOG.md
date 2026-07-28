@@ -1,5 +1,12 @@
 # Registro de cambios
 
+## 1.0.0 — 2026-07-28
+### Added
+- Primera versión estable para Minecraft 26.2
+- 8 variantes de torre: 4 Overworld + 2 Nether + 2 End
+- Soporte de dimensiones custom vía archivo de configuración
+- Nombrado automático de waystones con nombres fantásticos
+
 ## 0.0.0-beta.7 — 2026-07-28
 ### Fixed
 - Custom dimensions del config ahora usan `UniformHeight` (rango 20-60) en vez de `project_start_to_heightmap` — evita torres flotantes en dimensiones tipo End
