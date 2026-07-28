@@ -10,9 +10,8 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.GenerationStep;
-import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.heightproviders.ConstantHeight;
+import net.minecraft.world.level.levelgen.heightproviders.UniformHeight;
 import net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
@@ -115,9 +114,8 @@ public class DynamicStructureRegistry {
                     settings,
                     poolHolder,
                     1,
-                    ConstantHeight.of(VerticalAnchor.absolute(-6)),
-                    false,
-                    Heightmap.Types.OCEAN_FLOOR_WG
+                    UniformHeight.of(VerticalAnchor.absolute(20), VerticalAnchor.absolute(60)),
+                    false
                 );
             });
             WaystoneTowersMod.LOGGER.info("Registered structure '{}' for dimension '{}'", id, entry.getDimension());

@@ -1,5 +1,9 @@
 # Registro de cambios
 
+## 1.2.2 — 2026-07-28
+### Fixed
+- Custom dimensions del config ahora usan `UniformHeight` (rango 20-60) en vez de `project_start_to_heightmap` — evita torres flotantes en dimensiones tipo End
+
 ## 1.2.1 — 2026-07-28
 ### Fixed
 - End towers ya no aparecen flotando en el vacío — removido `project_start_to_heightmap` y ajustado `start_height` a rango uniforme 30-60 para islas del End
