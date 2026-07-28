@@ -42,10 +42,10 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.2`
 
 | Campo | Valor | Notas |
 |-------|-------|-------|
-| `displayName` | `Tower Waystone (0.0.0-beta.X)` | Nombre visible: `display_name (version)` |
+| `displayName` | `Tower Waystone (X.Y.Z)` | Nombre visible: `display_name (version)` |
 | `changelog` | HTML (no Markdown) | Ver estructura abajo |
 | `changelogType` | `html` | Obligatorio para que se vea bien |
-| `releaseType` | `release` o `beta` | Según el tipo de versión |
+| `releaseType` | `release` o `beta` | `release` para estables, `beta` para desarrollo |
 | `gameVersionNames` | `["Client", "Server", "26.2", "NeoForge"]` | Entorno + MC + modloader |
 
 ## Estructura del changelog (HTML)
