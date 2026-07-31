@@ -1,28 +1,27 @@
-# Flujo de trabajo � Tower Waystone (NeoForge)
+# Flujo de trabajo — Tower Waystone (NeoForge)
 
-> **Versi�n del workflow**: 1.4.0 (codex-docs)
-> Este archivo pertenece al proyecto **Tower Waystone**.
+> **Versión del workflow**: 1.13.0 (codex-docs)
+> Este archivo pertenece al proyecto **Tower Waystone**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
+> No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
+> Es una **copia fina**: delega en `codex-docs/WORKFLOW_GENERIC.md` y los `reference/`. No se re-sincroniza copiando contenido — solo se actualiza si cambia la estructura del genérico o los datos específicos del mod.
 
-## Ramas
+## Delegación
 
-| Rama | Prop�sito |
+Todo lo que no sea específico del mod se lee de:
+- `codex-docs/WORKFLOW_GENERIC.md` — convenciones, workspace, ramas, versionado, commits, tags, CI/CD, flujo, buenas prácticas, idioma
+- `codex-docs/reference/CURSEFORGE.md` — formato HTML de CurseForge (solo al publicar)
+- `codex-docs/reference/GRAPHIFY.md` — backend LLM de Graphify (solo al montar `extract`/`label`)
+- `codex-docs/reference/REPO_SETUP.md` — setup único de ramas/CI (solo al iniciar el repo)
+
+## Específico del mod
+
+| Dato | Valor |
 |---|---|
-| `minecraft/26.2/neoforge-26.2.0.32-beta/production` | Rama por defecto. Trabajo diario en Minecraft 26.2 |
-| `minecraft/26.2/neoforge-26.2.0.32-beta/main` | Rama protegida. C�digo p�blico para GitHub |
+| Mod ID (`gradle.properties`) | `tower_waystone` |
+| Clase principal | `WaystoneTowersMod` |
+| Display name (Title Case) | `Tower Waystone` |
+| Versiones de Minecraft | `26.1.2 y 26.2` |
 
-## Inicializaci�n �nica de rama */main
+### Notas específicas de este mod
 
-```bash
-git checkout minecraft/26.2/neoforge-26.2.0.32-beta/production
-git checkout -b minecraft/26.2/neoforge-26.2.0.32-beta/main
-git push origin minecraft/26.2/neoforge-26.2.0.32-beta/main
-git checkout minecraft/26.2/neoforge-26.2.0.32-beta/production
-```
-
-## JAR naming
-
-`tower_waystone-26.2-neoforge-<version>.jar`
-
-## Tags
-
-`26.2-neoforge-<version>`
+- **Rama 26.2**: `minecraft/26.2/neoforge-26.2.0.32-beta/production` (+ `main` hermana). JAR: `tower_waystone-26.2-neoforge-<version>.jar`. Tags: `26.2-neoforge-<version>`.
