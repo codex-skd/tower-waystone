@@ -1,5 +1,5 @@
-
 # Tower Waystone
+> Original concept by **Ner07CA**. Ported to NeoForge by **Stalking Dragons**.
 
 Stone towers with waystones scattered across your world. Activate the waystones and teleport between them using the [Waystones mod](https://www.curseforge.com/minecraft/mc-mods/waystones).
 
