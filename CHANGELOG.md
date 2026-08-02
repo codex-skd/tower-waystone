@@ -1,5 +1,9 @@
 # Registro de cambios
 
+## 1.2.3 — 2026-08-02
+### Refactor
+- Clase principal `WaystoneTowersMod` → `TowerWaystone` para cumplir la convención de nomenclatura del proyecto. Sin cambios de config ni de generación.
+
 ## 1.2.2 — 2026-07-28
 ### Fixed
 - Custom dimensions del config ahora usan `UniformHeight` (rango 20-60) en vez de `project_start_to_heightmap` — evita torres flotantes en dimensiones tipo End
