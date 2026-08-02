@@ -9,12 +9,12 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
-@Mod(WaystoneTowersMod.MODID)
-public class WaystoneTowersMod {
+@Mod(TowerWaystone.MODID)
+public class TowerWaystone {
     public static final String MODID = "tower_waystone";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public WaystoneTowersMod(IEventBus modEventBus) {
+    public TowerWaystone(IEventBus modEventBus) {
         CustomDimensionConfig.load(FMLPaths.CONFIGDIR.get(), LOGGER);
 
         NeoForge.EVENT_BUS.register(new WaystoneNamer());
