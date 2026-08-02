@@ -10,7 +10,7 @@
 | Dato | Valor |
 |---|---|
 | Mod ID (`gradle.properties`) | `tower_waystone` |
-| Clase principal | `WaystoneTowersMod` |
+| Clase principal | `TowerWaystone` |
 | Display name (Title Case) | `Tower Waystone` |
 | Versiones de Minecraft | `26.1.2 y 26.2` |
 | Rama | `minecraft/26.2/neoforge-26.2.0.32-beta/production` |
@@ -23,7 +23,7 @@
 | Convención | Uso | Ejemplo |
 |---|---|---|
 | **snake_case** | `mod_id`, assets/, packages Java | `tower_waystone` |
-| **PascalCase** | Clases Java principales | `WaystoneTowersMod` |
+| **PascalCase** | Clases Java principales | `TowerWaystone` |
 | **camelCase** | Variables, métodos, config keys | `tower_waystoneConfig` |
 | **Title Case** | Display name (README, CHANGELOG, docs, CurseForge) | `Tower Waystone` |
 

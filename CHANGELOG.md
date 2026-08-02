@@ -1,5 +1,9 @@
 # Registro de cambios
 
+## 1.0.1 — 2026-08-02
+### Refactor
+- Clase principal `WaystoneTowersMod` → `TowerWaystone` para cumplir la convención de nomenclatura del proyecto. Sin cambios de config ni de generación.
+
 ## 1.0.0 — 2026-07-28
 ### Added
 - Primera versión estable para Minecraft 26.2
