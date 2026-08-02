@@ -57,7 +57,7 @@ public class DynamicStructureRegistry {
         for (CustomDimensionConfig.DimensionEntry entry : entries) {
             Identifier id = processorId(entry);
             event.register(Registries.PROCESSOR_LIST, id, () -> buildProcessor(entry));
-            WaystoneTowersMod.LOGGER.info("Registered processor list '{}' for dimension '{}'", id, entry.getDimension());
+            TowerWaystone.LOGGER.info("Registered processor list '{}' for dimension '{}'", id, entry.getDimension());
         }
     }
 
@@ -80,7 +80,7 @@ public class DynamicStructureRegistry {
                     StructureTemplatePool.Projection.RIGID
                 );
             });
-            WaystoneTowersMod.LOGGER.info("Registered template pool '{}' for dimension '{}'", id, entry.getDimension());
+            TowerWaystone.LOGGER.info("Registered template pool '{}' for dimension '{}'", id, entry.getDimension());
         }
     }
 
@@ -118,7 +118,7 @@ public class DynamicStructureRegistry {
                     false
                 );
             });
-            WaystoneTowersMod.LOGGER.info("Registered structure '{}' for dimension '{}'", id, entry.getDimension());
+            TowerWaystone.LOGGER.info("Registered structure '{}' for dimension '{}'", id, entry.getDimension());
         }
     }
 
@@ -139,7 +139,7 @@ public class DynamicStructureRegistry {
 
                 return new StructureSet(structHolder, placement);
             });
-            WaystoneTowersMod.LOGGER.info("Registered structure set '{}' for dimension '{}'", id, entry.getDimension());
+            TowerWaystone.LOGGER.info("Registered structure set '{}' for dimension '{}'", id, entry.getDimension());
         }
     }
 

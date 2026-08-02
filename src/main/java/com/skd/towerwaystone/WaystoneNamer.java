@@ -53,7 +53,7 @@ public class WaystoneNamer {
             if (retries < MAX_RETRIES) {
                 level.getServer().execute(() -> nameWaystone(level, pos, retries + 1));
             } else {
-                WaystoneTowersMod.LOGGER.warn("Gave up naming waystone at {} after {} retries", pos, MAX_RETRIES);
+                TowerWaystone.LOGGER.warn("Gave up naming waystone at {} after {} retries", pos, MAX_RETRIES);
                 NAMED.add(pos);
             }
             return;
@@ -70,6 +70,6 @@ public class WaystoneNamer {
         String name = NAMES[RANDOM.nextInt(NAMES.length)];
         mutable.setName(Component.literal(name));
         NAMED.add(pos);
-        WaystoneTowersMod.LOGGER.info("Named waystone at {} to '{}'", pos, name);
+        TowerWaystone.LOGGER.info("Named waystone at {} to '{}'", pos, name);
     }
 }
