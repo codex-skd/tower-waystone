@@ -14,7 +14,10 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.chunk.LevelChunk;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.level.ChunkEvent;
+import net.neoforged.neoforge.event.tick.ServerTickEvent;
 
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 import java.util.Set;
@@ -29,7 +32,11 @@ public class WaystoneNamer {
     };
     private static final Random RANDOM = new Random();
     private static final Set<BlockPos> NAMED = ConcurrentHashMap.newKeySet();
+    private static final Map<BlockPos, PendingWaystone> PENDING = new ConcurrentHashMap<>();
     private static final int MAX_RETRIES = 10;
+
+    private record PendingWaystone(ServerLevel level, int retriesLeft) {
+    }
 
     @SubscribeEvent
     public void onChunkLoad(ChunkEvent.Load event) {
@@ -40,36 +47,56 @@ public class WaystoneNamer {
                 Identifier id = BuiltInRegistries.BLOCK.getKey(block);
                 if ("waystones".equals(id.getNamespace()) && id.getPath().contains("waystone")) {
                     BlockPos pos = be.getBlockPos().immutable();
-                    serverLevel.getServer().execute(() -> nameWaystone(serverLevel, pos, 0));
+                    PENDING.put(pos, new PendingWaystone(serverLevel, MAX_RETRIES));
                 }
             }
         }
     }
 
-    private void nameWaystone(ServerLevel level, BlockPos pos, int retries) {
-        if (NAMED.contains(pos)) return;
+    @SubscribeEvent
+    public void onServerTick(ServerTickEvent.Post event) {
+        if (PENDING.isEmpty()) return;
+        Iterator<Map.Entry<BlockPos, PendingWaystone>> it = PENDING.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry<BlockPos, PendingWaystone> entry = it.next();
+            nameWaystone(entry, it);
+        }
+    }
+
+    private void nameWaystone(Map.Entry<BlockPos, PendingWaystone> entry, Iterator<Map.Entry<BlockPos, PendingWaystone>> it) {
+        BlockPos pos = entry.getKey();
+        PendingWaystone pending = entry.getValue();
+        ServerLevel level = pending.level();
+        if (NAMED.contains(pos)) {
+            it.remove();
+            return;
+        }
         Optional<Waystone> opt = WaystonesAPI.getWaystoneAt(level, pos);
         if (opt.isEmpty() || !(opt.get() instanceof MutableWaystone mutable)) {
-            if (retries < MAX_RETRIES) {
-                level.getServer().execute(() -> nameWaystone(level, pos, retries + 1));
+            if (pending.retriesLeft() > 0) {
+                entry.setValue(new PendingWaystone(level, pending.retriesLeft() - 1));
             } else {
                 TowerWaystone.LOGGER.warn("Gave up naming waystone at {} after {} retries", pos, MAX_RETRIES);
                 NAMED.add(pos);
+                it.remove();
             }
             return;
         }
         Waystone waystone = opt.get();
         if (waystone.hasName()) {
             NAMED.add(pos);
+            it.remove();
             return;
         }
         if (waystone.getOrigin() == WaystoneOrigin.PLAYER) {
             NAMED.add(pos);
+            it.remove();
             return;
         }
         String name = NAMES[RANDOM.nextInt(NAMES.length)];
         mutable.setName(Component.literal(name));
         NAMED.add(pos);
+        it.remove();
         TowerWaystone.LOGGER.info("Named waystone at {} to '{}'", pos, name);
     }
 }
