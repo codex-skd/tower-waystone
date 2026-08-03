@@ -15,14 +15,9 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/towerwaystone/WaystoneNamer.java": {
-    "mtime": 1785148974.0710793,
-    "ast_hash": "4ecc40b43caffacfd29da4f8dd90e35c",
-    "semantic_hash": "4ecc40b43caffacfd29da4f8dd90e35c"
-  },
-  "src/main/java/com/skd/towerwaystone/WaystoneTowersMod.java": {
-    "mtime": 1785148974.0286255,
-    "ast_hash": "decbfa0081e441ed5627ef895fa1027b",
-    "semantic_hash": "decbfa0081e441ed5627ef895fa1027b"
+    "mtime": 1785772952.284851,
+    "ast_hash": "6d539e7fe364e809c6973cfb9816d456",
+    "semantic_hash": ""
   },
   "src/main/resources/assets/tower_waystone/lang/en_us.json": {
     "mtime": 1785148974.1000912,
@@ -108,5 +103,210 @@
     "mtime": 1785148979.5114753,
     "ast_hash": "285d4cc72f6ddbbf3b0fedc265308ab7",
     "semantic_hash": "285d4cc72f6ddbbf3b0fedc265308ab7"
+  },
+  "src/main/java/com/skd/towerwaystone/CustomDimensionConfig.java": {
+    "mtime": 1785192851.0660694,
+    "ast_hash": "cdc13f5cdf35ba5eb8fbfaec1ae1e051",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/towerwaystone/DynamicStructureRegistry.java": {
+    "mtime": 1785697203.821599,
+    "ast_hash": "600dd26551ab239bedae0bf7b3a150a8",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/towerwaystone/TowerWaystone.java": {
+    "mtime": 1785697203.8376122,
+    "ast_hash": "d3fcb74dddabf301cbf7e669d7ef3ebc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/tags/worldgen/biome/has_structure/end_purpur_tower.json": {
+    "mtime": 1785169397.0668008,
+    "ast_hash": "d5b2b105188b146eb04b62e61dc82951",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/tags/worldgen/biome/has_structure/end_stone_tower.json": {
+    "mtime": 1785169396.4143944,
+    "ast_hash": "d5b2b105188b146eb04b62e61dc82951",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/tags/worldgen/biome/has_structure/nether_blackstone_tower.json": {
+    "mtime": 1785169395.117684,
+    "ast_hash": "ddc3fde10741f92429ff15266fb10f70",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/tags/worldgen/biome/has_structure/nether_brick_tower.json": {
+    "mtime": 1785169395.7899003,
+    "ast_hash": "ddc3fde10741f92429ff15266fb10f70",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/processor_list/end_purpur_processor.json": {
+    "mtime": 1785191453.0490828,
+    "ast_hash": "a1c042f36b32ba9bb2e98ac02ca12e82",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/processor_list/end_stone_processor.json": {
+    "mtime": 1785169370.305678,
+    "ast_hash": "15f4d6d8a8c8a3055f187bdb0bbdb05e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/processor_list/nether_blackstone_processor.json": {
+    "mtime": 1785169363.013614,
+    "ast_hash": "c201b5e5846731c63811e112c0db30c4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/processor_list/nether_brick_processor.json": {
+    "mtime": 1785169366.6485975,
+    "ast_hash": "03e1f8dd06792bc03732f4acccac8dc4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure/end_purpur_tower.json": {
+    "mtime": 1785197564.65614,
+    "ast_hash": "4593825aa900ce68cf4f56e1db0707c8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure/end_stone_tower.json": {
+    "mtime": 1785197563.2566164,
+    "ast_hash": "358f8487907338b9d88ae4c47333ff76",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure/nether_blackstone_tower.json": {
+    "mtime": 1785169377.692307,
+    "ast_hash": "081bd431a8ea46e2d495a04b1c15727a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure/nether_brick_tower.json": {
+    "mtime": 1785169378.7274024,
+    "ast_hash": "45a20fa0f21ee46b77ef1c8923b21136",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure_set/end_purpur_tower.json": {
+    "mtime": 1785169386.1328049,
+    "ast_hash": "8420ae4ae04a2cd6b067ce6aa09c45c0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure_set/end_stone_tower.json": {
+    "mtime": 1785169385.3413424,
+    "ast_hash": "79dc95130e2e0fa0611e86cd3d8106c2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure_set/nether_blackstone_tower.json": {
+    "mtime": 1785169383.782619,
+    "ast_hash": "9efbecd67a3f0acaf1afdb0ac80633cc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/structure_set/nether_brick_tower.json": {
+    "mtime": 1785169384.5763829,
+    "ast_hash": "12ee61f04045d6687a11fea2c90c670a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/template_pool/end_purpur_tower.json": {
+    "mtime": 1785169391.9262552,
+    "ast_hash": "0b7c9b1833a4ec71779c08520300e176",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/template_pool/end_stone_tower.json": {
+    "mtime": 1785169391.1019068,
+    "ast_hash": "511e9f893a76ed6e06e9d5af692ea4ba",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/template_pool/nether_blackstone_tower.json": {
+    "mtime": 1785169389.4067512,
+    "ast_hash": "b8a8d4442098d8d41c4a7264f9ea1025",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/tower_waystone/worldgen/template_pool/nether_brick_tower.json": {
+    "mtime": 1785169390.2569375,
+    "ast_hash": "2253847a23088fd5c8f76bf173a571b2",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1785489193.2321422,
+    "ast_hash": "ef479eb371ab6409251ba4cede970eda",
+    "semantic_hash": ""
+  },
+  ".gitlab-ci.yml": {
+    "mtime": 1785148970.0313215,
+    "ast_hash": "362ec445fda27215c6c13ed14bef2784",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1785775508.0862062,
+    "ast_hash": "114b659a004f2782746f94332ba438f5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785626739.7954235,
+    "ast_hash": "970f9c65350a01bd36c0d493e85afe8b",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md": {
+    "mtime": 1785697239.0866377,
+    "ast_hash": "e07fbc76abb134a3715913029bfd0f7b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1785149074.3011868,
+    "ast_hash": "0fc11e2cd0e1cdc4735f8ed0191f85bc",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1785697302.3731306,
+    "ast_hash": "9d5af1127637d82ec9765ed7a4fdb4a1",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.1.md": {
+    "mtime": 1785150682.7430854,
+    "ast_hash": "0dd0f528c5a014245ae44025fbf2941e",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.2.md": {
+    "mtime": 1785169422.3462827,
+    "ast_hash": "303b5d22d9500ffec9765611dff5ae47",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1785188316.0180025,
+    "ast_hash": "7a12476666f246b7933a1bcc31c366a5",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.4.md": {
+    "mtime": 1785191461.3098433,
+    "ast_hash": "d30973b293794705991c33acec494382",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.5.md": {
+    "mtime": 1785193127.1941662,
+    "ast_hash": "45eb6e145479eeda551d3736e9352ae1",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.6.md": {
+    "mtime": 1785197581.8652492,
+    "ast_hash": "ff17cf48990947500e33bf0b7b87b6ec",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.7.md": {
+    "mtime": 1785197865.7446296,
+    "ast_hash": "41518228436114b71e33ed7f5f3df8d0",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1785202568.8109605,
+    "ast_hash": "da0508cc494c9a0925f79f03bb85133f",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1785697654.5891964,
+    "ast_hash": "e0bf377994232eaf891a38d65f6ee6b1",
+    "semantic_hash": ""
+  },
+  "docs/custom_dimensions.md": {
+    "mtime": 1785193092.4519033,
+    "ast_hash": "6bdc22864dedb71c76f1e06ced751862",
+    "semantic_hash": ""
+  },
+  "src/main/resources/logo.png": {
+    "mtime": 1785148974.1351645,
+    "ast_hash": "ef60a11e9451b1fe4fc7dc3272d24943",
+    "semantic_hash": ""
   }
 }
