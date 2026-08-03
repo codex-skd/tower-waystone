@@ -1,5 +1,9 @@
 # Registro de cambios
 
+## 1.2.4 — 2026-08-03
+### Fixed
+- Nombrado automático de waystones: el reintento usaba `level.getServer().execute(...)`, que en el hilo del servidor se ejecuta de forma síncrona e inmediata en vez de esperar ticks reales — los 10 reintentos se consumían al instante y las waystones generadas por worldgen (en lo alto de las torres) podían quedar sin nombre. Ahora el reintento se procesa en `ServerTickEvent.Post`, un intento por tick real.
+
 ## 1.2.3 — 2026-08-02
 ### Refactor
 - Clase principal `WaystoneTowersMod` → `TowerWaystone` para cumplir la convención de nomenclatura del proyecto. Sin cambios de config ni de generación.
