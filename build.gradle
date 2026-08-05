@@ -74,6 +74,8 @@ configurations {
 
 dependencies {
     implementation files("libs/waystones-neoforge-26.2-26.2.0.5.jar")
+    implementation files("libs/balm-neoforge-26.2-26.2.0.5.jar")
+    implementation files("libs/shogi-neoforge-26.2-26.2.0.4.jar")
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
