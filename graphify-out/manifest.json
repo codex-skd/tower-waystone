@@ -1,8 +1,8 @@
 {
   "build.gradle": {
-    "mtime": 1785150445.3616922,
-    "ast_hash": "9f6ee4216cf301728e2914f9fce9f10d",
-    "semantic_hash": "9f6ee4216cf301728e2914f9fce9f10d"
+    "mtime": 1785968498.1503243,
+    "ast_hash": "61ac4fc56bcc8e645b946aa20c8a1470",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1785148969.7206545,
@@ -225,13 +225,13 @@
     "semantic_hash": ""
   },
   ".gitlab-ci.yml": {
-    "mtime": 1785148970.0313215,
+    "mtime": 1785801081.5708683,
     "ast_hash": "362ec445fda27215c6c13ed14bef2784",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785775508.0862062,
-    "ast_hash": "114b659a004f2782746f94332ba438f5",
+    "mtime": 1785972327.635636,
+    "ast_hash": "033fb0d662f525d452576dada39f9276",
     "semantic_hash": ""
   },
   "README.md": {
@@ -307,6 +307,16 @@
   "src/main/resources/logo.png": {
     "mtime": 1785148974.1351645,
     "ast_hash": "ef60a11e9451b1fe4fc7dc3272d24943",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.2.md": {
+    "mtime": 1785784479.5946007,
+    "ast_hash": "c07cb5fb2ec91102cf105cc4eb54cf92",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.3.md": {
+    "mtime": 1785972327.6366525,
+    "ast_hash": "9eb96fe394e58100235ae8e9dcad13ae",
     "semantic_hash": ""
   }
 }
