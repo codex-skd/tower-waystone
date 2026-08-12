@@ -1,5 +1,12 @@
 # Registro de cambios
 
+
+## [1.2.5] - 2026-08-12
+
+### Change
+
+- **Nombre de JAR con versión del cargador**: el artefacto ahora se compila como `tower_waystone-26.1.2-neoforge-26.1.2.78-1.2.5.jar` (se añade la versión de cargador/NeoForge al nombre del archivo). Empaquetado y documentación; sin cambios de funcionalidad.
+
 ## 1.2.4 — 2026-08-03
 ### Fixed
 - Nombrado automático de waystones: el reintento usaba `level.getServer().execute(...)`, que en el hilo del servidor se ejecuta de forma síncrona e inmediata en vez de esperar ticks reales — los 10 reintentos se consumían al instante y las waystones generadas por worldgen (en lo alto de las torres) podían quedar sin nombre. Ahora el reintento se procesa en `ServerTickEvent.Post`, un intento por tick real.
