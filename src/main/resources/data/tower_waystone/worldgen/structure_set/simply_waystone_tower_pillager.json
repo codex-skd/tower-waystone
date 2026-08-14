@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tower_waystone:simply_waystone_tower_pillager",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 50,
+    "salt": 503
+  }
+}
