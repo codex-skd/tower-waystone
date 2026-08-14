@@ -1,6 +1,20 @@
 # Registro de cambios
 
 
+## [1.0.5] - 2026-08-14
+
+### Added
+
+- **3 nuevas familias de torres** portadas desde el mod `simply_waystone_tower` (Forge 1.20.1, MCreator), adaptadas al sistema de jigsaw/structure de este mod:
+  - `simply_waystone_tower` (3 variantes): torres genéricas de piedra, biomas templados (plains, forest, savanna, windswept...).
+  - `simply_waystone_tower_ruins` (4 variantes): torres en ruinas con mob spawner/loot en algunas, biomas boscosos/pantanosos (jungle, taiga, swamp, dark_forest).
+  - `simply_waystone_tower_pillager` (2 variantes): torres temáticas de saqueadores, biomas de avanzadilla (plains, savanna, desert, snowy_plains, taiga).
+  - Se excluyeron 2 variantes de ruinas del pack original (`broken_1`, `broken_6`) por no incluir un bloque waystone en su NBT original.
+
+### Fixed
+
+- **Waystone inexistente en las 4 torres originales**: `waystone_tower.nbt`, `mossy_waystone_tower.nbt`, `sandy_waystone_tower.nbt` y `snowy_waystone_tower.nbt` referenciaban el bloque legacy `waystones:waystone` / `waystones:mossy_waystone` / `waystones:sandy_waystone`, IDs que ya no existen en la versión de Waystones usada por el proyecto (`26.2.0.5`, que solo registra variantes con nombre de material). Como consecuencia, esas torres generaban sin ningún waystone real (el juego trata el bloque desconocido como aire). Se remapearon a los IDs vigentes: `andesite_waystone`, `mossy_andesite_waystone`, `sandstone_waystone`.
+
 ## [1.0.4] - 2026-08-12
 
 ### Change
