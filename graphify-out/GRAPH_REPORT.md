@@ -1,16 +1,16 @@
-# Graph Report - 26.2  (2026-08-06)
+# Graph Report - 26.2  (2026-08-14)
 
 ## Corpus Check
-- 62 files · ~72,872 words
+- 76 files · ~73,731 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 202 nodes · 248 edges · 60 communities (28 shown, 32 thin omitted)
+- 209 nodes · 253 edges · 63 communities (31 shown, 32 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `48522178`
+- Built from commit: `fcb8a57d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -50,6 +50,7 @@
 - 0.0.0-beta.6.md
 - 0.0.0-beta.7.md
 - 1.0.0.md
+- project_description.md
 - Logger
 - 1.0.18 — 2026-07-11
 - 1.0.1 — 2026-08-02
@@ -63,7 +64,7 @@
 - 1.0.9 — 2026-07-08
 
 ## God Nodes (most connected - your core abstractions)
-1. `Registro de cambios` - 41 edges
+1. `Registro de cambios` - 43 edges
 2. `DimensionEntry` - 17 edges
 3. `DynamicStructureRegistry` - 15 edges
 4. `CurseForge — Variables del proyecto` - 13 edges
@@ -80,7 +81,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (60 total, 32 thin omitted)
+## Communities (63 total, 32 thin omitted)
 
 ### Community 0 - "WaystoneNamer"
 Cohesion: 0.30
@@ -130,29 +131,33 @@ Nodes (3): 1.0.15 — 2026-07-10, Cambiado, Eliminado
 Cohesion: 0.50
 Nodes (3): CLAUDE.md — tower_waystone (26.2), Prioridad de instrucciones, Workflow del mod
 
+### Community 20 - "0.0.0-beta.1.md"
+Cohesion: 0.67
+Nodes (3): [1.0.5] - 2026-08-14, Added, Fixed
+
 ### Community 26 - "1.0.0 — 2026-07-28"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
 ### Community 27 - "1.0.10 — 2026-07-08"
-Cohesion: 0.18
-Nodes (10): 0.0.0-beta.5 — 2026-07-28, 1.0.10 — 2026-07-08, 1.0.6 — 2026-07-08, 1.0.8 — 2026-07-08, Added, Corregido, Corregido, Corregido (+2 more)
+Cohesion: 0.15
+Nodes (12): 0.0.0-beta.1 — 2026-07-27, 1.0.0 — 2026-07-28, 1.0.2 — 2026-08-03, 1.0.8 — 2026-07-08, 1.0.8 — 2026-07-08, Added, Cambiado, Corregido (+4 more)
 
 ## Knowledge Gaps
-- **78 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `Fixed`, `Refactor`, `Added` (+73 more)
+- **81 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `Added`, `Fixed`, `Change` (+76 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **32 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Registro de cambios` connect `1.0.10 — 2026-07-08` to `gradlew`, `settings.gradle`, `Registro de cambios`, `1.0.15 — 2026-07-10`, `0.0.0-beta.1 — 2026-07-27`, `1.0.10 — 2026-07-08`, `1.0.16 — 2026-07-10`, `1.0.17 — 2026-07-10`, `0.0.0-beta.2 — 2026-07-27`, `1.0.15 — 2026-07-10`, `project_description.md`, `0.0.0-beta.1.md`, `0.0.0-beta.2.md`, `1.0.10.md`, `1.0.17.md`, `1.0.18.md`, `0.0.0-beta.7 — 2026-07-28`, `1.0.16 — 2026-07-10`, `1.0.18 — 2026-07-11`, `1.0.7 — 2026-07-08`, `1.0.8 — 2026-07-08`, `1.0.9 — 2026-07-08`, `0.0.0-beta.6.md`, `0.0.0-beta.7.md`, `1.0.0.md`, `1.0.18 — 2026-07-11`, `1.0.1 — 2026-08-02`, `1.0.1 — 2026-08-02`, `1.0.2 — 2026-08-03`, `1.0.2 — 2026-08-03`, `[1.0.3] - 2026-08-05`, `1.0.6 — 2026-07-08`, `1.0.7 — 2026-07-08`, `1.0.8 — 2026-07-08`, `1.0.9 — 2026-07-08`?**
-  _High betweenness centrality (0.171) - this node is a cross-community bridge._
+- **Why does `Registro de cambios` connect `1.0.10 — 2026-07-08` to `gradlew`, `settings.gradle`, `Registro de cambios`, `1.0.15 — 2026-07-10`, `0.0.0-beta.1 — 2026-07-27`, `1.0.10 — 2026-07-08`, `1.0.16 — 2026-07-10`, `1.0.17 — 2026-07-10`, `0.0.0-beta.2 — 2026-07-27`, `1.0.15 — 2026-07-10`, `project_description.md`, `0.0.0-beta.1.md`, `0.0.0-beta.2.md`, `1.0.10.md`, `1.0.17.md`, `1.0.18.md`, `0.0.0-beta.7 — 2026-07-28`, `1.0.16 — 2026-07-10`, `1.0.18 — 2026-07-11`, `1.0.7 — 2026-07-08`, `1.0.8 — 2026-07-08`, `1.0.9 — 2026-07-08`, `0.0.0-beta.6.md`, `0.0.0-beta.7.md`, `1.0.0.md`, `project_description.md`, `1.0.18 — 2026-07-11`, `1.0.1 — 2026-08-02`, `1.0.1 — 2026-08-02`, `1.0.2 — 2026-08-03`, `1.0.2 — 2026-08-03`, `[1.0.3] - 2026-08-05`, `1.0.6 — 2026-07-08`, `1.0.7 — 2026-07-08`, `1.0.8 — 2026-07-08`, `1.0.9 — 2026-07-08`?**
+  _High betweenness centrality (0.180) - this node is a cross-community bridge._
 - **Why does `DimensionEntry` connect `0.0.0-beta.2 — 2026-07-27` to `WaystoneTowersMod.java`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Why does `WaystoneNamer` connect `WaystoneNamer` to `WaystoneTowersMod.java`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `Workflow del mod`, `Prioridad de instrucciones`, `Fixed` to the rest of the system?**
-  _78 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **What connects `Workflow del mod`, `Prioridad de instrucciones`, `Added` to the rest of the system?**
+  _81 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `CurseForge � Variables del proyecto` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
