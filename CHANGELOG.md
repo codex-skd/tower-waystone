@@ -1,6 +1,17 @@
 # Registro de cambios
 
 
+## [1.0.6] - 2026-08-15
+
+### Added
+
+- **Haz de luz configurable sobre los waystones**: cada waystone generado por una torre del mod ahora renderiza un haz de luz vertical estilo beacon (client-side, puramente visual). Inspirado en el mod de referencia `waystonebeacons-1.0.0.jar`, pero implementado de forma independiente sin Mixin: usa el evento `net.neoforged.neoforge.client.event.SubmitCustomGeometryEvent` (pipeline de renderizado basado en "submission" de esta versión de NeoForge) y reutiliza `BeaconRenderer.submitBeaconBeam(...)` de vanilla para dibujar el haz.
+- **Configuración real**: `config/tower_waystone/waystone_beacon.json` (mismo patrón Gson que `custom_dimensions.json`) con `enabled` (on/off), `color` (RGB 0-255) y `height` (altura del haz en bloques). A diferencia del mod de referencia, cuyos valores de haz estaban hardcodeados pese a tener una clase de config sin usar, aquí los parámetros se leen de verdad del archivo.
+- Detección de waystones vía chunk load/unload (`WaystoneBeaconClientData`), independiente del renderer interno del mod Waystones — no se rompe si Waystones cambia su implementación de render.
+
+### Notes
+<blockquote>Cambio puramente client-side y visual. No afecta a la generación de mundo, guardado, ni comportamiento en servidor dedicado.</blockquote>
+
 ## [1.0.5] - 2026-08-14
 
 ### Added
