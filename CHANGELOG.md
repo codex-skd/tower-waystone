@@ -1,6 +1,14 @@
 # Registro de cambios
 
 
+## [1.0.7] - 2026-08-15
+
+### Fixed
+
+- **Torres nuevas mal colocadas / apareciendo bajo el agua**: las NBT de `simply_waystone_tower`/`_ruins`/`_pillager` tienen el suelo (cobblestone) directamente en `y=0`, sin sótano de tierra como las torres propias del mod (que sí tienen 5 bloques de tierra bajo la planta y por eso usan `start_height.absolute = -6`). Al reutilizar ese mismo offset, las 3 familias nuevas quedaban hundidas ~6 bloques en el terreno. Corregido a `start_height.absolute = 0` en `simply_waystone_tower.json`, `simply_waystone_tower_ruins.json` y `simply_waystone_tower_pillager.json`.
+- Quitados `minecraft:swamp` y `minecraft:mangrove_swamp` de la tag de biomas de `simply_waystone_tower_ruins` — esos biomas tienen charcas de agua superficial que hacían aparecer la torre bajo el agua incluso con el offset corregido.
+- **Haz de luz demasiado corto**: el haz configurable añadido en 1.0.6 se cortaba a pocos bloques por encima del waystone (campo `height` del config, por defecto 6). Ahora el haz siempre llega hasta el límite de renderizado del mundo, igual que un beacon real — se elimina el campo `height` del config (ya no tiene efecto) y se ajusta el punto de inicio del haz a la parte superior del bloque de waystone (que ocupa 2 bloques de alto).
+
 ## [1.0.6] - 2026-08-15
 
 ### Added
