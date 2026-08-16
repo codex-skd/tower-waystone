@@ -5,15 +5,12 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.chunk.LevelChunk;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.level.ChunkEvent;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.Set;
 
-@OnlyIn(Dist.CLIENT)
 public class WaystoneBeaconClientData {
     private static final Set<BlockPos> WAYSTONE_POSITIONS = ConcurrentHashMap.newKeySet();
 

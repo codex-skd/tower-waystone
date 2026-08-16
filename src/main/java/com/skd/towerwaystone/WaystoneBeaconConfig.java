@@ -55,8 +55,8 @@ public class WaystoneBeaconConfig {
                 }
             }
             if (settings.height <= 0) {
-                logger.warn("Height must be positive in waystone_beacon.json, using default");
-                settings.height = 6;
+                logger.warn("Invalid height in waystone_beacon.json, using default");
+                settings.height = new Settings().height;
             }
             SETTINGS = settings;
         } catch (IOException e) {
@@ -86,7 +86,7 @@ public class WaystoneBeaconConfig {
     public static class Settings {
         public boolean enabled = true;
         public int[] color = {80, 200, 255}; // RGB
-        public int height = 6;
+        public int height = 100; // blocks
 
         public boolean isEnabled() {
             return enabled;
