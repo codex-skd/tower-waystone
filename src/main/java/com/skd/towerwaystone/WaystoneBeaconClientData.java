@@ -45,7 +45,7 @@ public class WaystoneBeaconClientData {
     private static int tickCounter = 0;
 
     @SubscribeEvent
-    public void onClientTick(ClientTickEvent event) {
+    public void onClientTick(ClientTickEvent.Post event) {
         // Re-scanning the whole render-distance square is cheap enough once a second,
         // but not worth doing all 20 times a second - a waystone placed/broken in an
         // already-loaded chunk only needs to appear/disappear promptly, not instantly.
