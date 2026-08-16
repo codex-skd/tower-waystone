@@ -33,9 +33,10 @@ public class WaystoneBeaconRenderer {
 
         PoseStack poseStack = event.getPoseStack();
 
+        int height = settings.getHeight();
+
         // Waystones are 2 blocks tall (lower + upper half); start the beam at the top of the
-        // block, like vanilla beacons do, and extend it to the render limit instead of a fixed
-        // short segment.
+        // block, like vanilla beacons do.
         for (BlockPos pos : waystonePositions) {
             poseStack.pushPose();
             poseStack.translate(pos.getX() - cameraPos.x, pos.getY() + 2 - cameraPos.y, pos.getZ() - cameraPos.z);
@@ -46,7 +47,7 @@ public class WaystoneBeaconRenderer {
                     1.0F,
                     animationTime,
                     0,
-                    BeaconRenderer.MAX_RENDER_Y,
+                    height,
                     color,
                     0.2F,
                     0.25F

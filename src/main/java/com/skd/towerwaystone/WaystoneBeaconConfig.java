@@ -54,6 +54,10 @@ public class WaystoneBeaconConfig {
                     }
                 }
             }
+            if (settings.height <= 0) {
+                logger.warn("Invalid height in waystone_beacon.json, using default");
+                settings.height = new Settings().height;
+            }
             SETTINGS = settings;
         } catch (IOException e) {
             logger.error("Could not read config file: {}", configFile, e);
@@ -82,6 +86,7 @@ public class WaystoneBeaconConfig {
     public static class Settings {
         public boolean enabled = true;
         public int[] color = {80, 200, 255}; // RGB
+        public int height = 100; // blocks
 
         public boolean isEnabled() {
             return enabled;
@@ -89,6 +94,10 @@ public class WaystoneBeaconConfig {
 
         public int[] getColor() {
             return color.clone();
+        }
+
+        public int getHeight() {
+            return height;
         }
     }
 }
