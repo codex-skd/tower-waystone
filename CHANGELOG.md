@@ -1,6 +1,12 @@
 # Registro de cambios
 
 
+## [1.0.8] - 2026-08-16
+
+### Fixed
+
+- **Haz de luz no aparecía/desaparecía al colocar o romper un waystone**: la detección de waystones (`WaystoneBeaconClientData`) solo actualizaba la lista al cargar/descargar un chunk (`ChunkEvent.Load`/`Unload`), por lo que colocar o romper un waystone en un chunk ya cargado (el caso normal jugando) no se detectaba — el haz solo aparecía tras recargar el chunk (p. ej. reinicio del servidor) y, si se rompía el waystone, el haz quedaba "fantasma" indefinidamente. Se añade un reescaneo periódico (una vez por segundo, vía `ClientTickEvent`) de los chunks cargados dentro de la distancia de renderizado del cliente (`Options.getEffectiveRenderDistance()`), manteniendo además los manejadores de carga/descarga de chunk ya existentes.
+
 ## [1.0.7] - 2026-08-15
 
 ### Fixed
