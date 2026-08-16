@@ -1,6 +1,12 @@
 # Registro de cambios
 
 
+## [1.0.9] - 2026-08-16
+
+### Fixed
+
+- **Crash al cargar el juego (regresión de 1.0.8)**: el listener `onClientTick` de `WaystoneBeaconClientData` se registraba sobre `ClientTickEvent`, una clase abstracta — NeoForge lanza `IllegalArgumentException` al registrar un listener sobre una clase de evento abstracta ("Register a listener to one of its subclasses instead"), lo que impedía cargar el mod y crasheaba el cliente en `FMLClientSetupEvent`. Corregido a `ClientTickEvent.Post` (la subclase concreta que se dispara una vez por tick, tras el trabajo del cliente).
+
 ## [1.0.8] - 2026-08-16
 
 ### Fixed
