@@ -13,11 +13,14 @@
 | Clase principal | `TowerWaystone` |
 | Display name (Title Case) | `Tower Waystone` |
 | Versiones de Minecraft | `26.1.2 y 26.2` |
-| Rama | `minecraft/26.2/neoforge-26.2.0.32-beta/production` |
+| Rama | `minecraft/26.2/neoforge-26.2.0.45-beta/production` |
+
+| Última versión publicada | `1.0.11` (CurseForge file ID TBD) |
+| Estado | ✅ Release estable 1.0.11 |
 
 ### Notas específicas de este mod
 
-- **Rama 26.2**: `minecraft/26.2/neoforge-26.2.0.32-beta/production` (+ `main` hermana). JAR: `tower_waystone-26.2-neoforge-<version>.jar`. Tags: `26.2-neoforge-<version>`.
+- **Rama 26.2**: `minecraft/26.2/neoforge-26.2.0.45-beta/production` (+ `main` hermana). JAR: `tower_waystone-26.2-neoforge-<version>.jar`. Tags: `26.2-neoforge-<version>`.
 ## Convenciones de nomenclatura
 
 | Convención | Uso | Ejemplo |
@@ -57,7 +60,7 @@ Cada subida a CurseForge crea tag: beta `<mc>-neoforge-beta.X` · release `<mc>-
 **1. Desarrollo**
 
 ```bash
-git checkout minecraft/26.2/neoforge-26.2.0.32-beta/production
+git checkout minecraft/26.2/neoforge-26.2.0.45-beta/production
 ./gradlew.bat build
 git add -A
 git commit -m "feat: <descripción>
