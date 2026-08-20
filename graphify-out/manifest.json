@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1786846861.853678,
-    "ast_hash": "6cf6d842aea7838f989ed62d9ab1c6f4",
+    "mtime": 1787219616.1995964,
+    "ast_hash": "f3ca7a7b0128ac6a7f8b9cc94029394e",
     "semantic_hash": ""
   },
   "README.md": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_TOWER_WAYSTONE_26-2.md": {
-    "mtime": 1786569058.4892168,
-    "ast_hash": "798d4bff456a5423f1bdb9a69fe97f0c",
+    "mtime": 1787219616.26747,
+    "ast_hash": "de1070c3633b7492a23319217b8b779d",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -250,8 +250,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785697302.3731306,
-    "ast_hash": "9d5af1127637d82ec9765ed7a4fdb4a1",
+    "mtime": 1787219616.2844198,
+    "ast_hash": "299237b4e418d4ac641ef738061549fa",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -335,18 +335,18 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/tower_waystone/worldgen/structure/simply_waystone_tower.json": {
-    "mtime": 1786791674.4084513,
-    "ast_hash": "1edf3e0402c7dc2655244ed98e8bc247",
+    "mtime": 1786968500.7735114,
+    "ast_hash": "0968e5f5dfe6824f8e7065d83ec16489",
     "semantic_hash": ""
   },
   "src/main/resources/data/tower_waystone/worldgen/structure/simply_waystone_tower_pillager.json": {
-    "mtime": 1786791685.6713674,
-    "ast_hash": "4df3b64bcb5f050b4c0c0b1887b0f30e",
+    "mtime": 1786968518.4175406,
+    "ast_hash": "328f4e8ebb29ccc932c30bee62d4f51d",
     "semantic_hash": ""
   },
   "src/main/resources/data/tower_waystone/worldgen/structure/simply_waystone_tower_ruins.json": {
-    "mtime": 1786791680.1693258,
-    "ast_hash": "6260560e798e708f5389a5e1e7297e16",
+    "mtime": 1786968507.6184356,
+    "ast_hash": "d3e0e5eb7e79226b95866fd052f743a6",
     "semantic_hash": ""
   },
   "src/main/resources/data/tower_waystone/worldgen/structure_set/simply_waystone_tower.json": {
@@ -390,8 +390,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/towerwaystone/WaystoneBeaconClientData.java": {
-    "mtime": 1786846828.7662246,
-    "ast_hash": "f310ab3fa20c0f639032585ac731c5ba",
+    "mtime": 1786893841.0470767,
+    "ast_hash": "1d380b38bba29643e98d7fd2659680ad",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/towerwaystone/WaystoneBeaconConfig.java": {
@@ -415,8 +415,28 @@
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.0.8.md": {
-    "mtime": 1786846899.2210033,
-    "ast_hash": "521e04908e495f33db314998695a6d55",
+    "mtime": 1786847584.8894093,
+    "ast_hash": "d5ccb4956c64b32fc0191e8ca6a45467",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.10.md": {
+    "mtime": 1786968593.9147632,
+    "ast_hash": "ed8d6aebeb384655a23a320a2b0f23e9",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.11.md": {
+    "mtime": 1787062293.8676531,
+    "ast_hash": "6d149458a62d0dfb066af25d4aee1aeb",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.9.md": {
+    "mtime": 1786893939.162326,
+    "ast_hash": "32e189439d8f0940f070b7081b629b94",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.0.md": {
+    "mtime": 1787219609.6996655,
+    "ast_hash": "e4ca375fa7dfb0e96ee52bb08f6dd721",
     "semantic_hash": ""
   }
 }
