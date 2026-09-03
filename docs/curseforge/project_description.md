@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/loader-NeoForge-orange?style=plastic&logo=curseforge" alt="NeoForge">
 <img src="https://img.shields.io/badge/minecraft-26.1.2%20%7C%2026.2-blue?style=plastic" alt="Minecraft 26.1.2 and 26.2">
 <img src="https://img.shields.io/badge/side-server-brightgreen?style=plastic" alt="Server / worldgen">
-<img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0%20*-lightgrey?style=plastic" alt="CC BY-NC-SA 4.0 (see Credits)">
+<img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=plastic" alt="CC BY-NC-SA 4.0">
 </p>
 
 <br>
@@ -22,7 +22,7 @@
 <td width="65%">
 <p>Tower Waystone generates stone towers across your world, each with a naturally-spawning waystone ready to be activated. Pair it with the <a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones mod</a> to fast-travel between towers as you explore. Each tower variant only spawns in biomes that match its look, its waystone gets a random fantasy name, and each variant has its own structure set so distribution stays even.</p>
 
-<p>Original concept by <strong>Ner07CA</strong>, built for NeoForge by <strong>Stalking Dragons</strong>. Some additional tower variants are derived from <a href="https://www.curseforge.com/minecraft/mc-mods/simply-waystone-tower">Simply Waystone Tower</a> by <em>amefurashi1976</em> &mdash; see <em>Credits &amp; License</em>.</p>
+<p>Original concept by <strong>Ner07CA</strong>, built for NeoForge by <strong>Stalking Dragons</strong>.</p>
 </td>
 <td width="35%" align="center">
 <a href="https://codex.skdragons.com/" target="_blank"><img src="https://node-files.skdragons.com/uploads/MINECRAFT/Codex/logo_codex_stalking_dragons.png" alt="Codex Stalking Dragons" width="160"></a>
@@ -42,7 +42,6 @@
 <tr><td><strong>Snowy</strong></td><td>Frozen peaks, snowy plains, ice spikes, groves</td></tr>
 <tr><td><strong>Nether Blackstone / Nether Brick</strong></td><td>Nether wastes, soul sand valleys, crimson &amp; warped forests, basalt deltas</td></tr>
 <tr><td><strong>End Stone / End Purpur</strong></td><td>End highlands, midlands, barrens, small end islands</td></tr>
-<tr><td><strong>Simply Waystone Tower</strong> (towers, ruins &amp; pillager sets)</td><td>Plains, forests, savannas, windswept, jungles, swamps, taigas, dark forests, deserts, snowy plains &mdash; <em>derived variants, see Credits &amp; License</em></td></tr>
 </table>
 
 <br>
@@ -78,7 +77,7 @@
 <table>
 <tr><th align="left">Minecraft</th><th align="left">NeoForge</th><th align="left">Latest build</th><th align="left">Status</th></tr>
 <tr><td>26.1.2</td><td>26.1.2.78+</td><td><code>1.2.5</code></td><td>Stable</td></tr>
-<tr><td>26.2</td><td>26.2.0.57+</td><td><code>1.1.0</code></td><td>Stable</td></tr>
+<tr><td>26.2</td><td>26.2.0.57+</td><td><code>1.1.1</code></td><td>Stable</td></tr>
 </table>
 
 <p><em>All versions share this CurseForge project. Pick the file that matches your Minecraft version. No 1.21.1 build is planned.</em></p>
@@ -102,9 +101,7 @@
 
 <h2>&#128591; Credits &amp; License</h2>
 
-<p>Tower Waystone was created by <strong>Stalking Dragons</strong> from an original concept by <strong>Ner07CA</strong>. The Stalking Dragons&ndash;built towers (Normal, Sandy, Mossy, Snowy, Nether and End variants), the mod code, textures and structures are released under <strong>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</strong> (CC BY-NC-SA 4.0).</p>
-
-<p><strong>*</strong> The <strong>Simply Waystone Tower</strong> variants (the tower / ruins / pillager structure sets) are derived from <a href="https://www.curseforge.com/minecraft/mc-mods/simply-waystone-tower">Simply Waystone Tower</a> by <strong>amefurashi1976</strong>, whose work is <strong>All Rights Reserved</strong>. Those structures remain the property of their author and are <em>not</em> covered by the CC BY-NC-SA licence above. Not affiliated with or endorsed by amefurashi1976.</p>
+<p>Tower Waystone was created by <strong>Stalking Dragons</strong> from an original concept by <strong>Ner07CA</strong>. All tower variants (Normal, Sandy, Mossy, Snowy, Nether and End), the mod code, textures and structures are released under <strong>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</strong> (CC BY-NC-SA 4.0).</p>
 
 <br>
 <br>

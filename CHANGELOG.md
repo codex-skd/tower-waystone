@@ -2,6 +2,17 @@
 
 
 
+## [1.1.1] - 2026-09-03
+
+### Removed
+
+- **Torres de Simply Waystone Tower**: eliminadas las 3 familias de estructuras derivadas de [Simply Waystone Tower](https://www.curseforge.com/minecraft/mc-mods/simply-waystone-tower) de *amefurashi1976* (contenido *All Rights Reserved*) y todo su worldgen asociado — 9 plantillas `.nbt` (`simply_waystone_tower_1/2/3`, `simply_waystone_tower_broken_2/3/4/5`, `simply_waystone_tower_pillager_1/2`) y 12 JSON (`structure`, `structure_set`, `template_pool` y tags `has_structure` de `simply_waystone_tower`, `simply_waystone_tower_ruins` y `simply_waystone_tower_pillager`). El mod vuelve a distribuir únicamente las torres propias de Stalking Dragons (Normal, Sandy, Mossy, Snowy, Nether Blackstone/Brick, End Stone/Purpur).
+- El código Java es genérico y no referenciaba estas estructuras por nombre, así que no hubo cambios de código. Las NBT nativas no se tocan.
+
+### Notes
+
+- **Mundos existentes**: los chunks ya generados con torres de Simply Waystone Tower conservan sus bloques, pero Minecraft registrará avisos al no encontrar los IDs de estructura `tower_waystone:simply_waystone_tower*`. No afecta a la jugabilidad ni provoca crash.
+
 ## [1.1.0] - 2026-08-19
 
 ### Change

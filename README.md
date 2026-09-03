@@ -1,6 +1,5 @@
 # Tower Waystone
 > Original concept by **Ner07CA**. Ported to NeoForge by **Stalking Dragons**.
-> Additional tower variants ported from [Simply Waystone Tower](https://www.curseforge.com/minecraft/mc-mods/simply-waystone-tower) (MCreator, Forge 1.20.1).
 
 Stone towers with waystones scattered across your world. Activate the waystones and teleport between them using the [Waystones mod](https://www.curseforge.com/minecraft/mc-mods/waystones).
 
@@ -16,9 +15,6 @@ Stone towers with waystones scattered across your world. Activate the waystones 
 | Nether Brick | Nether wastes, soul sand valleys, crimson forests, warped forests, basalt deltas |
 | End Stone | End highlands, end midlands, end barrens, small end islands |
 | End Purpur | End highlands, end midlands, end barrens, small end islands |
-| Simply Waystone Tower (3 variants) | Plains, forests, savannas, windswept biomes |
-| Simply Waystone Tower Ruins (4 variants) | Jungles, swamps, taigas, dark forests |
-| Simply Waystone Tower Pillager (2 variants) | Plains, savannas, deserts, snowy plains/taiga |
 
 ## Requirements
 
